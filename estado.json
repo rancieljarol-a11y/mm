@@ -1,0 +1,16 @@
+{
+  "operaciones_ciclo": 1,
+  "operaciones_par": {
+    "EURGBP-OTC": 1
+  },
+  "operaciones_vela": {
+    "EURGBP-OTC_5m_1774912800": 1
+  },
+  "reuso_senal": 1,
+  "senal_actual": "EURGBP-OTC_5m_1774912863",
+  "resultados_senal": [],
+  "ultimo_resultado": {},
+  "reentry_permitido": {},
+  "inicio_ciclo": 1774912858,
+  "ultima_senal_id": "EURGBP-OTC_5m_1774912863"
+}
