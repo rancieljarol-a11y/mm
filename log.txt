@@ -1,0 +1,1709 @@
+[2026-03-24 08:51:14] 🚀 OttO Trading Bot INICIADO
+[2026-03-24 08:51:14] ⏰ Intervalo: 10 minutos | Score mínimo: 62
+[2026-03-24 08:51:14] 📊 Pares: 10
+[2026-03-24 08:51:14] 
+==================================================
+[2026-03-24 08:51:14] 🌅 CICLO AUTOMÁTICO - 08:51:14
+[2026-03-24 08:51:14] ==================================================
+[2026-03-24 08:51:20] ✅ Conectado! Balance: $50.78
+[2026-03-24 08:51:20] 📊 EURUSD: Score 25 | PUT | RSI 52.0
+[2026-03-24 08:51:21] 📊 GBPUSD: Score 25 | PUT | RSI 54.4
+[2026-03-24 08:51:21] 📊 USDJPY: Score 25 | CALL | RSI 55.1
+[2026-03-24 08:51:21] 📊 AUDUSD: Score 25 | PUT | RSI 47.9
+[2026-03-24 08:51:21] 📊 EURGBP: Score 25 | CALL | RSI 46.0
+[2026-03-24 08:51:21] 📊 USDCAD: Score 25 | CALL | RSI 46.7
+[2026-03-24 08:51:22] 📊 EURJPY: Score 25 | CALL | RSI 62.0
+[2026-03-24 08:51:22] 📊 GBPJPY: Score 25 | CALL | RSI 62.0
+[2026-03-24 08:51:22] 📊 NZDUSD: Score 25 | PUT | RSI 55.1
+[2026-03-24 08:51:22] 📊 USDSGD: Score 25 | CALL | RSI 53.5
+[2026-03-24 08:51:22] ⚠️ Sin señales fuertes - No hay operaciones
+[2026-03-24 08:51:22] ✅ Ciclo completado | Ops ciclo: 0 | Ops hoy: 0
+[2026-03-24 08:51:22] 😴 Durmiendo 10.0 minutos...
+[09:06:35] ==================================================
+[09:06:35] INICIANDO BOT AUTOMATICO
+[09:06:35] ==================================================
+[09:06:35] Conectando...
+[09:06:41] Conectado!
+[09:06:42]   EURUSD: Score 214 | PUT | RSI 36.7
+[09:06:42]   GBPUSD: Score 218 | PUT | RSI 30.5
+[09:06:42]   USDJPY: Score 214 | CALL | RSI 54.2
+[09:06:42]   AUDUSD: Score 183 | PUT | RSI 30.3
+[09:06:42]   EURGBP: Score 229 | PUT | RSI 35.5
+[09:06:43]   USDCAD: Score 214 | CALL | RSI 35.8
+[09:06:43]   EURJPY: Score 229 | PUT | RSI 48.2
+[09:06:43]   GBPJPY: Score 229 | PUT | RSI 42.9
+[09:06:43]   SEÑAL: EURGBP PUT (Score: 229)
+[09:06:43]   SEÑAL: EURJPY PUT (Score: 229)
+[09:06:43] Ciclo completado. Ops: 2
+[09:06:43] Durmiendo 10 minutos...
+[09:07:07] ==================================================
+[09:07:07] INICIANDO BOT AUTOMATICO
+[09:07:07] ==================================================
+[09:07:07] Conectando...
+[09:07:15] Conectado!
+[09:07:15]   EURUSD: Score 214 | PUT | RSI 35.6
+[09:07:15]   GBPUSD: Score 218 | PUT | RSI 28.7
+[09:07:15]   USDJPY: Score 214 | CALL | RSI 57.8
+[09:07:15]   AUDUSD: Score 158 | PUT | RSI 28.6
+[09:07:16]   EURGBP: Score 229 | PUT | RSI 35.6
+[09:07:16]   USDCAD: Score 214 | CALL | RSI 37.8
+[09:07:16]   EURJPY: Score 229 | PUT | RSI 48.6
+[09:07:16]   GBPJPY: Score 229 | PUT | RSI 42.3
+[09:07:16]   SEÑAL: EURGBP PUT (Score: 229)
+[09:07:16]   SEÑAL: EURJPY PUT (Score: 229)
+[09:07:16] Ciclo completado. Ops: 2
+[09:07:16] Durmiendo 10 minutos...
+[09:11:28] ==================================================
+[09:11:28] BOT CON OPERACIONES v3
+[09:11:28] ==================================================
+[09:11:28] Conectando...
+[09:12:55] ==================================================
+[09:12:55] BOT CON OPERACIONES v3
+[09:12:55] ==================================================
+[09:12:55] Conectando...
+[09:13:24] ==================================================
+[09:13:24] BOT CON OPERACIONES v3
+[09:13:24] ==================================================
+[09:13:24] Conectando...
+[09:13:52] ==================================================
+[09:13:52] BOT CON OPERACIONES v3
+[09:13:52] ==================================================
+[09:13:52] Conectando...
+[09:14:38] ==================================================
+[09:14:38] BOT CON OPERACIONES v3
+[09:14:38] ==================================================
+[09:14:38] Conectando...
+[09:15:16] ==================================================
+[09:15:16] BOT CON OPERACIONES v3
+[09:15:16] ==================================================
+[09:15:16] Conectando...
+[09:16] Iniciando bot...
+[09:16] Conectando...
+[09:16] Balance: $50.78
+[09:16] EURUSD: PUT
+[09:16] EURUSD: invalid literal for int() with base 10: 'put'
+[09:16] GBPUSD: PUT
+[09:16] GBPUSD: invalid literal for int() with base 10: 'put'
+[09:16] Ciclo completo. Dormir 10min...
+[09:17] Iniciando bot...
+[09:17] Conectando...
+[09:17] Balance: $50.78
+[09:17] EURUSD: PUT
+[09:17] EURUSD: invalid literal for int() with base 10: 'PUT'
+[09:17] GBPUSD: PUT
+[09:17] GBPUSD: invalid literal for int() with base 10: 'PUT'
+[09:17] Ciclo completo. Dormir 10min...
+[09:17] Iniciando bot...
+[09:17] Conectando...
+[09:18] Balance: $50.78
+[09:18] EURUSD: PUT
+[09:18] EURUSD: invalid literal for int() with base 10: 'PUT'
+[09:18] GBPUSD: PUT
+[09:18] GBPUSD: invalid literal for int() with base 10: 'PUT'
+[09:18] Ciclo completo. Dormir 10min...
+[09:18] Iniciando bot...
+[09:18] Conectando...
+[09:18] Balance: $50.78
+[09:18] EURUSD: PUT
+[09:18] EURUSD: invalid literal for int() with base 10: 'PUT'
+[09:18] GBPUSD: PUT
+[09:18] GBPUSD: invalid literal for int() with base 10: 'PUT'
+[09:18] Ciclo completo. Dormir 10min...
+[09:19] Iniciando bot...
+[09:19] Conectando...
+[09:19] Balance: $50.78
+[09:19] EURUSD: PUT
+[09:19] EURUSD: invalid literal for int() with base 10: 'PUT'
+[09:19] GBPUSD: PUT
+[09:19] GBPUSD: invalid literal for int() with base 10: 'PUT'
+[09:19] Ciclo completo. Dormir 10min...
+[09:20] Iniciando bot...
+[09:20] Conectando...
+[09:20] Balance: $50.78
+[09:20] EURUSD: PUT
+[09:20] EURUSD: invalid literal for int() with base 10: 'PUT'
+[09:20] GBPUSD: PUT
+[09:20] GBPUSD: invalid literal for int() with base 10: 'PUT'
+[09:20] Ciclo completo. Dormir 10min...
+[09:35] ==================================================
+[09:35] BOT TRADING - 2-3 OPERACIONES
+[09:35] ==================================================
+[09:35] Conectando...
+[09:35] Balance: $50.78
+[09:35] EURUSD: PUT RSI:29 Score:60
+[09:35] Error buy EURUSD: invalid literal for int() with
+[09:35] GBPUSD: PUT RSI:25 Score:60
+[09:35] Error buy GBPUSD: invalid literal for int() with
+[09:35] USDJPY: CALL RSI:67 Score:60
+[09:35] Error buy USDJPY: invalid literal for int() with
+[09:35] AUDUSD: PUT RSI:35 Score:75
+[09:35] Error buy AUDUSD: invalid literal for int() with
+[09:35] EURGBP: CALL RSI:35 Score:50
+[09:35] USDCAD: CALL RSI:42 Score:50
+[09:35] EURJPY: CALL RSI:39 Score:50
+[09:35] GBPJPY: PUT RSI:36 Score:50
+[09:35] Sin operaciones
+[09:35] Ciclo hecho. Durmiendo 10min... ops:0
+[09:36] INICIANDO BOT v5
+[09:36] Conectando...
+[09:36] Balance: $50.78
+[09:36] EURUSD: PUT RSI:29 Score:60
+[09:36] >>> OPERADO: EURUSD PUT
+[09:36] GBPUSD: PUT RSI:24 Score:60
+[09:36] >>> OPERADO: GBPUSD PUT
+[09:36] Ciclo hecho. Ops:2
+[09:37] INICIANDO BOT v6
+[09:37] Conectando...
+[09:37] Balance: $50.78
+[09:37] EURUSD: PUT RSI:30 Score:60
+[09:37] >>> OPERADO: EURUSD PUT
+[09:37] GBPUSD: PUT RSI:25 Score:60
+[09:37] >>> OPERADO: GBPUSD PUT
+[09:37] Ciclo. Ops:2
+[09:43] ==================================================
+[09:43] BOT TRADING v7 - OPERACIONES ACTIVAS
+[09:43] ==================================================
+[09:43] Conectando...
+[09:43] Balance: $50.78
+[09:43] EURUSD: PUT RSI:32 Score:70
+[09:43] GBPUSD: PUT RSI:27 Score:70
+[09:43] USDJPY: CALL RSI:59 Score:60
+[09:43] AUDUSD: PUT RSI:37 Score:75
+[09:43] EURGBP: CALL RSI:37 Score:60
+[09:43] USDCAD: CALL RSI:44 Score:60
+[09:43] EURJPY: PUT RSI:39 Score:60
+[09:43] GBPJPY: PUT RSI:35 Score:60
+[09:43] >>> OPERADO: AUDUSD PUT (Score:75)
+[09:43] >>> OPERADO: EURUSD PUT (Score:70)
+[09:43] >>> OPERADO: GBPUSD PUT (Score:70)
+[09:43] Ciclo completado. Ops:3
+[09:43] Dormir 10min...
+[09:46] Conectando...
+[09:46] Balance: $50.78
+[09:46] EURUSD: PUT RSI:32 Score:60
+[09:46] >>> OPERADO: EURUSD PUT
+[09:46] GBPUSD: PUT RSI:26 Score:60
+[09:46] >>> OPERADO: GBPUSD PUT
+[09:46] Ciclo hecho. Ops:2
+[09:53] ==================================================
+[09:53] BOT TRADING v8 - USANDO OTC
+[09:53] ==================================================
+[09:53] Conectando...
+[09:53] Balance: $49.78
+[09:53] EURUSD-OTC: PUT RSI:51 Score:50
+[09:53] EURGBP-OTC: PUT RSI:37 Score:50
+[09:53] GBPUSD-OTC: CALL RSI:19 Score:75
+[09:53] USDJPY-OTC: CALL RSI:41 Score:50
+[09:53] AUDCAD-OTC: CALL RSI:63 Score:65
+[09:53] >>> OPERADO: GBPUSD-OTC CALL (Score:75)
+[09:53] >>> OPERADO: AUDCAD-OTC CALL (Score:65)
+[09:53] Ciclo completado. Ops:2
+[09:53] Dormir 10min...
+[09:56] Conectando...
+[09:56] Balance: $47.78
+[09:56] EURUSD: PUT RSI:31 Score:60
+[09:56] >>> OPERADO: EURUSD PUT
+[09:56] GBPUSD: PUT RSI:31 Score:60
+[09:56] >>> OPERADO: GBPUSD PUT
+[09:56] Ciclo hecho. Ops:2
+[09:56] ==================================================
+[09:56] BOT TRADING v9 - PCR ESTRICTO
+[09:56] ==================================================
+[09:56] Conectando...
+[09:56] Balance: $47.78
+[09:56] --- Analizando 5 min ---
+[09:56] EURUSD-OTC 5m: PUT RSI:51 Score:50
+[09:56] EURGBP-OTC 5m: PUT RSI:34 Score:45
+[09:56] GBPUSD-OTC 5m: CALL RSI:26 Score:40
+[09:56] USDJPY-OTC 5m: CALL RSI:43 Score:45
+[09:56] AUDCAD-OTC 5m: CALL RSI:59 Score:35
+[09:56] --- Analizando 15 min ---
+[09:56] EURUSD-OTC 15m: PUT RSI:44 Score:60
+[09:56] EURGBP-OTC 15m: PUT RSI:33 Score:45
+[09:56] GBPUSD-OTC 15m: CALL RSI:63 Score:55
+[09:56] USDJPY-OTC 15m: CALL RSI:62 Score:50
+[09:56] AUDCAD-OTC 15m: CALL RSI:66 Score:65
+[09:56] Sin señales fuertes (score < 80)
+[09:56] Ciclo completado. Ops:0
+[09:56] Dormir 10min...
+[09:57] ==================================================
+[09:57] BOT TRADING v9 - PCR ESTRICTO
+[09:57] ==================================================
+[09:57] Conectando...
+[09:57] Balance: $47.78
+[09:57] --- Analizando 5 min ---
+[09:57] EURUSD-OTC 5m: PUT RSI:51 Score:50
+[09:57] EURGBP-OTC 5m: PUT RSI:34 Score:45
+[09:57] GBPUSD-OTC 5m: CALL RSI:17 Score:35
+[09:57] USDJPY-OTC 5m: CALL RSI:44 Score:45
+[09:57] AUDCAD-OTC 5m: CALL RSI:58 Score:35
+[09:57] --- Analizando 15 min ---
+[09:57] EURUSD-OTC 15m: PUT RSI:44 Score:60
+[09:57] EURGBP-OTC 15m: PUT RSI:31 Score:45
+[09:57] GBPUSD-OTC 15m: CALL RSI:59 Score:55
+[09:57] USDJPY-OTC 15m: CALL RSI:63 Score:50
+[09:57] AUDCAD-OTC 15m: CALL RSI:66 Score:65
+[09:57] >>> OPERADO: AUDCAD-OTC CALL 15m (Score:65)
+[09:57] Ciclo completado. Ops:1
+[09:57] Dormir 10min...
+[10:06] Conectando...
+[10:06] Balance: $48.63
+[10:06] EURUSD: PUT RSI:40 Score:50
+[10:06] GBPUSD: PUT RSI:37 Score:50
+[10:06] USDJPY: CALL RSI:45 Score:50
+[10:06] AUDUSD: PUT RSI:45 Score:65
+[10:06] >>> OPERADO: AUDUSD PUT
+[10:06] EURGBP: CALL RSI:36 Score:50
+[10:06] USDCAD: CALL RSI:38 Score:50
+[10:06] EURJPY: PUT RSI:42 Score:50
+[10:06] GBPJPY: PUT RSI:36 Score:50
+[10:06] Ciclo hecho. Ops:1
+[10:07] Conectando...
+[10:08] Balance: $48.63
+[10:08] --- Analizando 5 min ---
+[10:08] EURUSD-OTC 5m: PUT RSI:50 Score:45
+[10:08] EURGBP-OTC 5m: PUT RSI:31 Score:35
+[10:08] GBPUSD-OTC 5m: CALL RSI:39 Score:45
+[10:08] USDJPY-OTC 5m: CALL RSI:40 Score:50
+[10:08] AUDCAD-OTC 5m: CALL RSI:52 Score:35
+[10:08] --- Analizando 15 min ---
+[10:08] EURUSD-OTC 15m: PUT RSI:39 Score:60
+[10:08] EURGBP-OTC 15m: PUT RSI:24 Score:40
+[10:08] GBPUSD-OTC 15m: CALL RSI:63 Score:45
+[10:08] USDJPY-OTC 15m: CALL RSI:60 Score:35
+[10:08] AUDCAD-OTC 15m: CALL RSI:61 Score:55
+[10:08] Sin señales fuertes (score < 80)
+[10:08] Ciclo completado. Ops:0
+[10:08] Dormir 10min...
+[10:16] Conectando...
+[10:16] Balance: $48.63
+[10:16] EURUSD: PUT RSI:51 Score:50
+[10:16] GBPUSD: PUT RSI:56 Score:50
+[10:16] USDJPY: CALL RSI:25 Score:60
+[10:16] >>> OPERADO: USDJPY CALL
+[10:16] AUDUSD: PUT RSI:54 Score:65
+[10:16] >>> OPERADO: AUDUSD PUT
+[10:16] Ciclo hecho. Ops:2
+[10:18] Conectando...
+[10:18] Balance: $48.63
+[10:18] --- Analizando 5 min ---
+[10:18] EURUSD-OTC 5m: PUT RSI:45 Score:50
+[10:18] EURGBP-OTC 5m: PUT RSI:30 Score:45
+[10:18] GBPUSD-OTC 5m: CALL RSI:41 Score:50
+[10:18] USDJPY-OTC 5m: CALL RSI:41 Score:45
+[10:18] AUDCAD-OTC 5m: CALL RSI:59 Score:30
+[10:18] --- Analizando 15 min ---
+[10:18] EURUSD-OTC 15m: PUT RSI:41 Score:60
+[10:18] EURGBP-OTC 15m: PUT RSI:23 Score:40
+[10:18] GBPUSD-OTC 15m: CALL RSI:56 Score:30
+[10:18] USDJPY-OTC 15m: CALL RSI:47 Score:45
+[10:18] AUDCAD-OTC 15m: CALL RSI:59 Score:55
+[10:18] Sin señales fuertes (score < 80)
+[10:18] Ciclo completado. Ops:0
+[10:18] Dormir 10min...
+[10:26] Conectando...
+[10:26] Balance: $48.63
+[10:26] EURUSD: PUT RSI:55 Score:50
+[10:26] GBPUSD: PUT RSI:62 Score:50
+[10:26] USDJPY: CALL RSI:8 Score:60
+[10:26] >>> OPERADO: USDJPY CALL
+[10:26] AUDUSD: PUT RSI:56 Score:50
+[10:26] EURGBP: CALL RSI:14 Score:60
+[10:26] >>> OPERADO: EURGBP CALL
+[10:26] Ciclo hecho. Ops:2
+[10:28] Conectando...
+[10:28] Balance: $48.63
+[10:28] --- Analizando 5 min ---
+[10:28] EURUSD-OTC 5m: PUT RSI:31 Score:35
+[10:28] EURGBP-OTC 5m: PUT RSI:37 Score:45
+[10:28] GBPUSD-OTC 5m: CALL RSI:40 Score:45
+[10:28] USDJPY-OTC 5m: CALL RSI:59 Score:35
+[10:28] AUDCAD-OTC 5m: CALL RSI:51 Score:45
+[10:28] --- Analizando 15 min ---
+[10:28] EURUSD-OTC 15m: PUT RSI:35 Score:40
+[10:28] EURGBP-OTC 15m: PUT RSI:23 Score:40
+[10:28] GBPUSD-OTC 15m: CALL RSI:55 Score:30
+[10:28] USDJPY-OTC 15m: CALL RSI:58 Score:35
+[10:28] AUDCAD-OTC 15m: CALL RSI:57 Score:55
+[10:28] Sin señales fuertes (score < 80)
+[10:28] Ciclo completado. Ops:0
+[10:28] Dormir 10min...
+[10:35] ==================================================
+[10:35] BOT TRADING v9 - PCR ESTRICTO
+[10:35] ==================================================
+[10:35] Conectando...
+[10:35] Balance: $48.63
+[10:35] --- Analizando 5 min ---
+[10:35] EURUSD-OTC 5m: PUT RSI:28 Score:40
+[10:35] EURGBP-OTC 5m: PUT RSI:38 Score:50
+[10:35] GBPUSD-OTC 5m: CALL RSI:53 Score:30
+[10:35] USDJPY-OTC 5m: CALL RSI:63 Score:40
+[10:35] AUDCAD-OTC 5m: CALL RSI:47 Score:40
+[10:35] --- Analizando 15 min ---
+[10:35] EURUSD-OTC 15m: PUT RSI:39 Score:40
+[10:35] EURGBP-OTC 15m: PUT RSI:27 Score:50
+[10:35] GBPUSD-OTC 15m: CALL RSI:60 Score:35
+[10:35] USDJPY-OTC 15m: CALL RSI:67 Score:50
+[10:35] AUDCAD-OTC 15m: CALL RSI:59 Score:50
+[10:35] Sin señales fuertes (score < 80)
+[10:35] Ciclo completado. Ops:0
+[10:35] Dormir 10min...
+[10:36] Conectando...
+[10:36] Balance: $48.63
+[10:36] EURUSD: PUT RSI:54 Score:50
+[10:36] GBPUSD: PUT RSI:61 Score:50
+[10:36] USDJPY: CALL RSI:18 Score:60
+[10:36] >>> OPERADO: USDJPY CALL
+[10:36] AUDUSD: PUT RSI:54 Score:50
+[10:36] EURGBP: CALL RSI:16 Score:60
+[10:36] >>> OPERADO: EURGBP CALL
+[10:36] Ciclo hecho. Ops:2
+[10:45] Conectando...
+[10:46] Balance: $48.63
+[10:46] --- Analizando 5 min ---
+[10:46] EURUSD-OTC 5m: PUT RSI:22 Score:40
+[10:46] EURGBP-OTC 5m: PUT RSI:39 Score:45
+[10:46] GBPUSD-OTC 5m: CALL RSI:45 Score:35
+[10:46] USDJPY-OTC 5m: CALL RSI:73 Score:55
+[10:46] AUDCAD-OTC 5m: CALL RSI:37 Score:40
+[10:46] --- Analizando 15 min ---
+[10:46] EURUSD-OTC 15m: PUT RSI:40 Score:35
+[10:46] EURGBP-OTC 15m: PUT RSI:26 Score:50
+[10:46] GBPUSD-OTC 15m: CALL RSI:50 Score:45
+[10:46] USDJPY-OTC 15m: CALL RSI:68 Score:55
+[10:46] AUDCAD-OTC 15m: CALL RSI:55 Score:45
+[10:46] Sin señales fuertes (score < 80)
+[10:46] Ciclo completado. Ops:0
+[10:46] Dormir 10min...
+[10:46] Conectando...
+[10:46] Balance: $48.63
+[10:46] EURUSD: PUT RSI:54 Score:50
+[10:46] GBPUSD: PUT RSI:58 Score:50
+[10:46] USDJPY: CALL RSI:28 Score:60
+[10:46] >>> OPERADO: USDJPY CALL
+[10:46] AUDUSD: PUT RSI:48 Score:50
+[10:46] EURGBP: CALL RSI:20 Score:60
+[10:46] >>> OPERADO: EURGBP CALL
+[10:46] Ciclo hecho. Ops:2
+[10:48] ==================================================
+[10:48] BOT TRADING v9 - PCR ESTRICTO
+[10:48] ==================================================
+[10:48] Conectando...
+[10:48] Balance: $48.63
+[10:48] --- Analizando 5 min ---
+[10:48] EURUSD-OTC 5m: PUT RSI:25 Score:45
+[10:48] EURGBP-OTC 5m: PUT RSI:35 Score:35
+[10:48] GBPUSD-OTC 5m: CALL RSI:42 Score:35
+[10:48] USDJPY-OTC 5m: CALL RSI:75 Score:55
+[10:48] AUDCAD-OTC 5m: CALL RSI:36 Score:40
+[10:48] --- Analizando 15 min ---
+[10:48] EURUSD-OTC 15m: PUT RSI:41 Score:40
+[10:48] EURGBP-OTC 15m: PUT RSI:23 Score:45
+[10:48] GBPUSD-OTC 15m: CALL RSI:47 Score:45
+[10:48] USDJPY-OTC 15m: CALL RSI:70 Score:55
+[10:48] AUDCAD-OTC 15m: CALL RSI:55 Score:45
+[10:48] Sin señales (score < 65)
+[10:48] Ciclo completado. Ops:0
+[10:48] Dormir 10min...
+[10:49] ==================================================
+[10:49] BOT TRADING v9 - PCR ESTRICTO
+[10:49] ==================================================
+[10:49] Conectando...
+[10:49] Balance: $48.63
+[10:49] --- Analizando 5 min ---
+[10:49] EURUSD-OTC 5m: PUT RSI:22 Score:45
+[10:49] EURGBP-OTC 5m: PUT RSI:34 Score:35
+[10:49] GBPUSD-OTC 5m: CALL RSI:40 Score:35
+[10:49] USDJPY-OTC 5m: CALL RSI:75 Score:55
+[10:49] AUDCAD-OTC 5m: CALL RSI:35 Score:40
+[10:49] EURJPY-OTC 5m: PUT RSI:44 Score:45
+[10:49] GBPJPY-OTC 5m: PUT RSI:37 Score:25
+[10:49] NZDUSD-OTC 5m: PUT RSI:56 Score:55
+[10:49] USDCHF-OTC 5m: CALL RSI:29 Score:70
+[10:49] --- Analizando 15 min ---
+[10:49] EURUSD-OTC 15m: PUT RSI:40 Score:40
+[10:49] EURGBP-OTC 15m: PUT RSI:22 Score:45
+[10:49] GBPUSD-OTC 15m: CALL RSI:46 Score:45
+[10:49] USDJPY-OTC 15m: CALL RSI:70 Score:55
+[10:49] AUDCAD-OTC 15m: CALL RSI:54 Score:45
+[10:49] EURJPY-OTC 15m: PUT RSI:47 Score:40
+[10:49] GBPJPY-OTC 15m: CALL RSI:31 Score:45
+[10:49] NZDUSD-OTC 15m: PUT RSI:40 Score:50
+[10:49] USDCHF-OTC 15m: PUT RSI:38 Score:50
+[10:49] >>> OPERADO: USDCHF-OTC CALL 5m (Score:70)
+[10:49] Ciclo completado. Ops:1
+[10:49] Dormir 10min...
+[10:55] ==================================================
+[10:55] BOT TRADING v9 - PCR ESTRICTO
+[10:55] ==================================================
+[10:55] Conectando...
+[10:55] Balance: $49.48
+[10:55] --- Analizando 5 min ---
+[10:55] EURUSD-OTC 5m: PUT RSI:16 Score:55
+[10:55] EURGBP-OTC 5m: PUT RSI:28 Score:60
+[10:55] GBPUSD-OTC 5m: PUT RSI:45 Score:40
+[10:55] USDJPY-OTC 5m: CALL RSI:73 Score:45
+[10:55] AUDCAD-OTC 5m: CALL RSI:31 Score:55
+[10:55] EURJPY-OTC 5m: PUT RSI:55 Score:45
+[10:55] GBPJPY-OTC 5m: PUT RSI:50 Score:45
+[10:55] NZDUSD-OTC 5m: PUT RSI:53 Score:55
+[10:55] USDCHF-OTC 5m: CALL RSI:29 Score:70
+[10:55] --- Analizando 15 min ---
+[10:55] EURUSD-OTC 15m: PUT RSI:42 Score:40
+[10:55] EURGBP-OTC 15m: PUT RSI:23 Score:45
+[10:55] GBPUSD-OTC 15m: CALL RSI:47 Score:45
+[10:55] USDJPY-OTC 15m: CALL RSI:70 Score:65
+[10:55] AUDCAD-OTC 15m: CALL RSI:54 Score:45
+[10:55] EURJPY-OTC 15m: PUT RSI:50 Score:40
+[10:55] GBPJPY-OTC 15m: CALL RSI:40 Score:55
+[10:55] NZDUSD-OTC 15m: PUT RSI:40 Score:50
+[10:55] USDCHF-OTC 15m: PUT RSI:40 Score:50
+[10:55] >>> OPERADO: USDCHF-OTC CALL 5m (Score:70)
+[10:55] >>> OPERADO: USDJPY-OTC CALL 15m (Score:65)
+[10:55] Ciclo completado. Ops:2
+[10:55] Dormir 10min...
+[10:56] Conectando...
+[10:56] Balance: $48.48
+[10:56] EURUSD: PUT RSI:63 Score:50
+[10:56] GBPUSD: PUT RSI:64 Score:50
+[10:56] USDJPY: CALL RSI:25 Score:60
+[10:56] >>> OPERADO: USDJPY CALL
+[10:56] AUDUSD: PUT RSI:59 Score:50
+[10:56] EURGBP: CALL RSI:22 Score:60
+[10:56] >>> OPERADO: EURGBP CALL
+[10:56] Ciclo hecho. Ops:2
+[11:05] Conectando...
+[11:05] Balance: $48.48
+[11:05] --- Analizando 5 min ---
+[11:05] EURUSD-OTC 5m: PUT RSI:26 Score:55
+[11:05] EURGBP-OTC 5m: PUT RSI:38 Score:50
+[11:05] GBPUSD-OTC 5m: PUT RSI:38 Score:25
+[11:05] USDJPY-OTC 5m: CALL RSI:64 Score:40
+[11:05] AUDCAD-OTC 5m: CALL RSI:26 Score:45
+[11:05] EURJPY-OTC 5m: PUT RSI:51 Score:45
+[11:05] GBPJPY-OTC 5m: PUT RSI:55 Score:40
+[11:05] NZDUSD-OTC 5m: PUT RSI:57 Score:40
+[11:05] USDCHF-OTC 5m: CALL RSI:42 Score:45
+[11:05] --- Analizando 15 min ---
+[11:05] EURUSD-OTC 15m: PUT RSI:35 Score:40
+[11:05] EURGBP-OTC 15m: PUT RSI:22 Score:45
+[11:05] GBPUSD-OTC 15m: CALL RSI:36 Score:45
+[11:05] USDJPY-OTC 15m: CALL RSI:66 Score:50
+[11:05] AUDCAD-OTC 15m: CALL RSI:53 Score:55
+[11:05] EURJPY-OTC 15m: PUT RSI:43 Score:45
+[11:05] GBPJPY-OTC 15m: CALL RSI:41 Score:55
+[11:05] NZDUSD-OTC 15m: PUT RSI:45 Score:70
+[11:05] USDCHF-OTC 15m: PUT RSI:45 Score:40
+[11:05] >>> OPERADO: NZDUSD-OTC PUT 15m (Score:70)
+[11:05] Ciclo completado. Ops:1
+[11:05] Dormir 10min...
+[11:06] Conectando...
+[11:06] Balance: $48.48
+[11:06] EURUSD: PUT RSI:48 Score:50
+[11:06] GBPUSD: PUT RSI:52 Score:50
+[11:06] USDJPY: PUT RSI:41 Score:50
+[11:06] AUDUSD: CALL RSI:40 Score:50
+[11:06] EURGBP: CALL RSI:23 Score:60
+[11:06] >>> OPERADO: EURGBP CALL
+[11:06] USDCAD: CALL RSI:47 Score:50
+[11:06] EURJPY: PUT RSI:56 Score:50
+[11:06] GBPJPY: PUT RSI:59 Score:50
+[11:06] Ciclo hecho. Ops:1
+[11:12] ==================================================
+[11:12] BOT TRADING v9 - PCR ESTRICTO
+[11:12] ==================================================
+[11:12] Conectando...
+[11:12] Balance: $48.48
+[11:12] --- Analizando 5 min ---
+[11:12] EURUSD-OTC 5m: PUT RSI:33 Score:60
+[11:12] EURGBP-OTC 5m: PUT RSI:45 Score:55
+[11:12] GBPUSD-OTC 5m: PUT RSI:36 Score:25
+[11:12] USDJPY-OTC 5m: CALL RSI:50 Score:30
+[11:12] AUDCAD-OTC 5m: CALL RSI:34 Score:55
+[11:12] EURJPY-OTC 5m: PUT RSI:61 Score:50
+[11:12] GBPJPY-OTC 5m: PUT RSI:55 Score:45
+[11:12] NZDUSD-OTC 5m: PUT RSI:60 Score:40
+[11:12] USDCHF-OTC 5m: CALL RSI:45 Score:45
+[11:12] --- Analizando 15 min ---
+[11:12] EURUSD-OTC 15m: PUT RSI:36 Score:45
+[11:12] EURGBP-OTC 15m: PUT RSI:25 Score:45
+[11:12] GBPUSD-OTC 15m: CALL RSI:34 Score:40
+[11:12] USDJPY-OTC 15m: CALL RSI:55 Score:55
+[11:12] AUDCAD-OTC 15m: CALL RSI:57 Score:55
+[11:12] EURJPY-OTC 15m: PUT RSI:49 Score:45
+[11:12] GBPJPY-OTC 15m: CALL RSI:41 Score:55
+[11:12] NZDUSD-OTC 15m: PUT RSI:48 Score:55
+[11:12] USDCHF-OTC 15m: PUT RSI:43 Score:55
+[11:12] Sin señales (score < 65)
+[11:12] Ciclo completado. Ops:0
+[11:12] Dormir 10min...
+[11:16] Conectando...
+[11:16] Balance: $48.48
+[11:16] EURUSD: CALL RSI:36 Score:50
+[11:16] GBPUSD: PUT RSI:42 Score:50
+[11:16] USDJPY: PUT RSI:49 Score:50
+[11:16] AUDUSD: CALL RSI:34 Score:60
+[11:16] >>> OPERADO: AUDUSD CALL
+[11:16] EURGBP: CALL RSI:23 Score:60
+[11:16] >>> OPERADO: EURGBP CALL
+[11:16] Ciclo hecho. Ops:2
+[11:22] Conectando...
+[11:23] Balance: $48.48
+[11:23] --- Analizando 5 min ---
+[11:23] EURUSD-OTC 5m: PUT RSI:50 Score:35
+[11:23] EURGBP-OTC 5m: PUT RSI:29 Score:60
+[11:23] GBPUSD-OTC 5m: PUT RSI:20 Score:35
+[11:23] USDJPY-OTC 5m: CALL RSI:52 Score:35
+[11:23] AUDCAD-OTC 5m: CALL RSI:26 Score:40
+[11:23] EURJPY-OTC 5m: PUT RSI:67 Score:40
+[11:23] GBPJPY-OTC 5m: PUT RSI:53 Score:40
+[11:23] NZDUSD-OTC 5m: PUT RSI:66 Score:35
+[11:23] USDCHF-OTC 5m: CALL RSI:41 Score:40
+[11:23] --- Analizando 15 min ---
+[11:23] EURUSD-OTC 15m: PUT RSI:47 Score:50
+[11:23] EURGBP-OTC 15m: PUT RSI:13 Score:45
+[11:23] GBPUSD-OTC 15m: CALL RSI:34 Score:35
+[11:23] USDJPY-OTC 15m: CALL RSI:57 Score:55
+[11:23] AUDCAD-OTC 15m: CALL RSI:49 Score:50
+[11:23] EURJPY-OTC 15m: PUT RSI:47 Score:45
+[11:23] GBPJPY-OTC 15m: CALL RSI:42 Score:50
+[11:23] NZDUSD-OTC 15m: PUT RSI:50 Score:60
+[11:23] USDCHF-OTC 15m: PUT RSI:39 Score:50
+[11:23] Sin señales (score < 65)
+[11:23] Ciclo completado. Ops:0
+[11:23] Dormir 10min...
+[11:26] Conectando...
+[11:26] Balance: $48.48
+[11:26] EURUSD: CALL RSI:41 Score:50
+[11:26] GBPUSD: CALL RSI:43 Score:50
+[11:26] USDJPY: PUT RSI:45 Score:50
+[11:26] AUDUSD: CALL RSI:40 Score:50
+[11:26] EURGBP: CALL RSI:27 Score:60
+[11:26] >>> OPERADO: EURGBP CALL
+[11:26] USDCAD: PUT RSI:47 Score:50
+[11:26] EURJPY: PUT RSI:46 Score:50
+[11:26] GBPJPY: PUT RSI:46 Score:50
+[11:26] Ciclo hecho. Ops:1
+[11:32] ==================================================
+[11:32] BOT TRADING v9 - PCR ESTRICTO
+[11:32] ==================================================
+[11:32] Conectando...
+[11:32] Balance: $48.48
+[11:32] --- Analizando 5 min ---
+[11:32] EURUSD-OTC 5m: PUT RSI:47 Score:45
+[11:32] EURGBP-OTC 5m: PUT RSI:28 Score:45
+[11:32] GBPUSD-OTC 5m: PUT RSI:26 Score:65
+[11:32] USDJPY-OTC 5m: CALL RSI:47 Score:40
+[11:32] AUDCAD-OTC 5m: CALL RSI:28 Score:40
+[11:32] EURJPY-OTC 5m: PUT RSI:68 Score:40
+[11:32] GBPJPY-OTC 5m: PUT RSI:55 Score:45
+[11:32] NZDUSD-OTC 5m: PUT RSI:67 Score:35
+[11:32] USDCHF-OTC 5m: CALL RSI:35 Score:40
+[11:32] --- Analizando 15 min ---
+[11:32] EURUSD-OTC 15m: PUT RSI:43 Score:65
+[11:32] EURGBP-OTC 15m: PUT RSI:14 Score:40
+[11:32] GBPUSD-OTC 15m: CALL RSI:27 Score:70
+[11:32] USDJPY-OTC 15m: CALL RSI:55 Score:60
+[11:32] AUDCAD-OTC 15m: CALL RSI:46 Score:55
+[11:32] EURJPY-OTC 15m: PUT RSI:46 Score:35
+[11:32] GBPJPY-OTC 15m: CALL RSI:44 Score:35
+[11:32] NZDUSD-OTC 15m: PUT RSI:56 Score:55
+[11:32] USDCHF-OTC 15m: PUT RSI:37 Score:55
+[11:32] >>> OPERADO: GBPUSD-OTC CALL 15m (Score:70)
+[11:32] >>> OPERADO: GBPUSD-OTC PUT 5m (Score:65)
+[11:32] Ciclo completado. Ops:2
+[11:32] Dormir 10min...
+[11:36] Conectando...
+[11:36] Balance: $48.33
+[11:36] EURUSD: CALL RSI:36 Score:50
+[11:36] GBPUSD: CALL RSI:34 Score:60
+[11:36] >>> OPERADO: GBPUSD CALL
+[11:36] USDJPY: PUT RSI:55 Score:50
+[11:36] AUDUSD: CALL RSI:40 Score:50
+[11:36] EURGBP: PUT RSI:33 Score:60
+[11:36] >>> OPERADO: EURGBP PUT
+[11:36] Ciclo hecho. Ops:2
+[11:42] Conectando...
+[11:42] Balance: $49.18
+[11:42] --- Analizando 5 min ---
+[11:42] EURUSD-OTC 5m: PUT RSI:60 Score:30
+[11:42] EURGBP-OTC 5m: PUT RSI:20 Score:45
+[11:42] GBPUSD-OTC 5m: PUT RSI:30 Score:60
+[11:42] USDJPY-OTC 5m: CALL RSI:37 Score:30
+[11:42] AUDCAD-OTC 5m: CALL RSI:25 Score:40
+[11:42] EURJPY-OTC 5m: PUT RSI:55 Score:40
+[11:42] GBPJPY-OTC 5m: PUT RSI:54 Score:45
+[11:42] NZDUSD-OTC 5m: CALL RSI:75 Score:45
+[11:42] USDCHF-OTC 5m: CALL RSI:35 Score:45
+[11:42] --- Analizando 15 min ---
+[11:42] EURUSD-OTC 15m: PUT RSI:44 Score:65
+[11:42] EURGBP-OTC 15m: PUT RSI:13 Score:40
+[11:42] GBPUSD-OTC 15m: CALL RSI:29 Score:70
+[11:42] USDJPY-OTC 15m: CALL RSI:50 Score:55
+[11:42] AUDCAD-OTC 15m: CALL RSI:44 Score:50
+[11:42] EURJPY-OTC 15m: PUT RSI:41 Score:45
+[11:42] GBPJPY-OTC 15m: CALL RSI:44 Score:35
+[11:42] NZDUSD-OTC 15m: PUT RSI:57 Score:60
+[11:42] USDCHF-OTC 15m: PUT RSI:37 Score:55
+[11:42] >>> OPERADO: GBPUSD-OTC CALL 15m (Score:70)
+[11:42] >>> OPERADO: EURUSD-OTC PUT 15m (Score:65)
+[11:42] Ciclo completado. Ops:2
+[11:42] Dormir 10min...
+[11:46] Conectando...
+[11:46] Balance: $47.18
+[11:46] EURUSD: CALL RSI:36 Score:50
+[11:46] GBPUSD: CALL RSI:36 Score:50
+[11:46] USDJPY: PUT RSI:56 Score:50
+[11:46] AUDUSD: CALL RSI:42 Score:50
+[11:46] EURGBP: PUT RSI:31 Score:60
+[11:46] >>> OPERADO: EURGBP PUT
+[11:46] USDCAD: CALL RSI:48 Score:50
+[11:46] EURJPY: PUT RSI:51 Score:50
+[11:46] GBPJPY: CALL RSI:46 Score:50
+[11:46] Ciclo hecho. Ops:1
+[11:52] Conectando...
+[11:52] Balance: $47.18
+[11:52] --- Analizando 5 min ---
+[11:52] EURUSD-OTC 5m: PUT RSI:62 Score:30
+[11:52] EURGBP-OTC 5m: PUT RSI:38 Score:45
+[11:52] GBPUSD-OTC 5m: PUT RSI:35 Score:45
+[11:52] USDJPY-OTC 5m: CALL RSI:43 Score:50
+[11:52] AUDCAD-OTC 5m: CALL RSI:27 Score:45
+[11:52] EURJPY-OTC 5m: PUT RSI:62 Score:35
+[11:52] GBPJPY-OTC 5m: PUT RSI:56 Score:40
+[11:52] NZDUSD-OTC 5m: CALL RSI:64 Score:35
+[11:52] USDCHF-OTC 5m: CALL RSI:32 Score:55
+[11:52] --- Analizando 15 min ---
+[11:52] EURUSD-OTC 15m: PUT RSI:55 Score:55
+[11:52] EURGBP-OTC 15m: PUT RSI:25 Score:45
+[11:52] GBPUSD-OTC 15m: CALL RSI:30 Score:75
+[11:52] USDJPY-OTC 15m: CALL RSI:47 Score:55
+[11:52] AUDCAD-OTC 15m: CALL RSI:47 Score:55
+[11:52] EURJPY-OTC 15m: PUT RSI:46 Score:50
+[11:52] GBPJPY-OTC 15m: CALL RSI:41 Score:40
+[11:52] NZDUSD-OTC 15m: PUT RSI:63 Score:60
+[11:52] USDCHF-OTC 15m: PUT RSI:45 Score:50
+[11:52] >>> OPERADO: GBPUSD-OTC CALL 15m (Score:75)
+[11:52] Ciclo completado. Ops:1
+[11:52] Dormir 10min...
+[11:56] Conectando...
+[11:56] Balance: $46.18
+[11:56] EURUSD: CALL RSI:33 Score:60
+[11:56] >>> OPERADO: EURUSD CALL
+[11:56] GBPUSD: CALL RSI:32 Score:60
+[11:56] >>> OPERADO: GBPUSD CALL
+[11:56] Ciclo hecho. Ops:2
+[12:02] Conectando...
+[12:03] Balance: $46.18
+[12:03] --- Analizando 5 min ---
+[12:03] EURUSD-OTC 5m: PUT RSI:58 Score:30
+[12:03] EURGBP-OTC 5m: PUT RSI:43 Score:50
+[12:03] GBPUSD-OTC 5m: PUT RSI:44 Score:50
+[12:03] USDJPY-OTC 5m: CALL RSI:40 Score:55
+[12:03] AUDCAD-OTC 5m: CALL RSI:28 Score:45
+[12:03] EURJPY-OTC 5m: PUT RSI:42 Score:20
+[12:03] GBPJPY-OTC 5m: PUT RSI:42 Score:40
+[12:03] NZDUSD-OTC 5m: CALL RSI:63 Score:45
+[12:03] USDCHF-OTC 5m: CALL RSI:31 Score:50
+[12:03] --- Analizando 15 min ---
+[12:03] EURUSD-OTC 15m: PUT RSI:47 Score:65
+[12:03] EURGBP-OTC 15m: PUT RSI:29 Score:50
+[12:03] GBPUSD-OTC 15m: CALL RSI:36 Score:45
+[12:03] USDJPY-OTC 15m: CALL RSI:49 Score:55
+[12:03] AUDCAD-OTC 15m: CALL RSI:42 Score:50
+[12:03] EURJPY-OTC 15m: PUT RSI:41 Score:25
+[12:03] GBPJPY-OTC 15m: CALL RSI:44 Score:20
+[12:03] NZDUSD-OTC 15m: PUT RSI:58 Score:55
+[12:03] USDCHF-OTC 15m: PUT RSI:46 Score:45
+[12:03] >>> OPERADO: EURUSD-OTC PUT 15m (Score:65)
+[12:03] Ciclo completado. Ops:1
+[12:03] Dormir 10min...
+[12:06] ==================================================
+[12:06] BOT TRADING v10 - PCR ESTRICTO (Score >= 75)
+[12:06] ==================================================
+[12:06] Conectando...
+[12:06] Balance: $45.18
+[12:06] --- Analizando 5 min ---
+[12:06] EURUSD-OTC 5m: PUT RSI:59 Score:14
+[12:06] EURGBP-OTC 5m: PUT RSI:34 Score:61
+[12:06] GBPUSD-OTC 5m: PUT RSI:49 Score:18
+[12:06] USDJPY-OTC 5m: CALL RSI:39 Score:31
+[12:06] AUDCAD-OTC 5m: PUT RSI:23 Score:49
+[12:06] EURJPY-OTC 5m: PUT RSI:43 Score:32
+[12:06] GBPJPY-OTC 5m: PUT RSI:29 Score:52
+[12:06] NZDUSD-OTC 5m: CALL RSI:63 Score:46
+[12:06] USDCHF-OTC 5m: CALL RSI:26 Score:41
+[12:06] --- Analizando 15 min ---
+[12:06] EURUSD-OTC 15m: PUT RSI:49 Score:56
+[12:06] EURGBP-OTC 15m: PUT RSI:23 Score:39
+[12:06] GBPUSD-OTC 15m: CALL RSI:42 Score:51
+[12:06] USDJPY-OTC 15m: CALL RSI:48 Score:49
+[12:06] AUDCAD-OTC 15m: CALL RSI:40 Score:50
+[12:06] EURJPY-OTC 15m: PUT RSI:38 Score:34
+[12:06] GBPJPY-OTC 15m: CALL RSI:41 Score:20
+[12:06] Conectando...
+[12:06] NZDUSD-OTC 15m: PUT RSI:62 Score:48
+[12:06] USDCHF-OTC 15m: PUT RSI:47 Score:49
+[12:06] Sin señales (mejor score: 61 < 75)
+[12:06] Ciclo completado. Ops:0
+[12:06] Dormir 10min...
+[12:06] Balance: $45.18
+[12:06] EURUSD: CALL RSI:24 Score:60
+[12:06] >>> OPERADO: EURUSD CALL
+[12:06] GBPUSD: CALL RSI:21 Score:60
+[12:06] >>> OPERADO: GBPUSD CALL
+[12:06] Ciclo hecho. Ops:2
+[12:13] ==================================================
+[12:13] BOT V11 - OPTIMIZADO (Score >= 80)
+[12:13] Pares: EURGBP, EURUSD, EURJPY, NZDUSD, AUDCAD
+[12:13] ==================================================
+[12:13] Conectando...
+[12:13] Balance: $45.18
+[12:13] --- Analizando 5 min ---
+[12:13] EURGBP-OTC 5m: PUT RSI:29 Score:61 📉
+[12:13] EURUSD-OTC 5m: PUT RSI:55 Score:33 📉
+[12:13] EURJPY-OTC 5m: PUT RSI:36 Score:40 📉
+[12:13] NZDUSD-OTC 5m: CALL RSI:68 Score:74 
+[12:13] AUDCAD-OTC 5m: PUT RSI:24 Score:65 📉
+[12:13] --- Analizando 15 min ---
+[12:13] EURGBP-OTC 15m: PUT RSI:22 Score:53 
+[12:13] EURUSD-OTC 15m: PUT RSI:47 Score:43 
+[12:13] EURJPY-OTC 15m: PUT RSI:35 Score:35 
+[12:13] NZDUSD-OTC 15m: PUT RSI:64 Score:41 
+[12:13] AUDCAD-OTC 15m: CALL RSI:38 Score:35 
+[12:13] Sin señales (mejor: 74 < 80)
+[12:13] Ciclo completado. Ops:0
+[12:13] Dormir 10min...
+[12:15] ==================================================
+[12:15] BOT V11 - OPTIMIZADO (Score >= 80)
+[12:15] Pares: EURGBP, EURUSD, EURJPY, NZDUSD, AUDCAD
+[12:15] ==================================================
+[12:15] Conectando...
+[12:15] Balance: $45.18
+[12:15] --- Analizando 5 min ---
+[12:15] EURGBP-OTC 5m: PUT RSI:29 Score:66 📉
+[12:15] EURUSD-OTC 5m: CALL RSI:58 Score:51 📉
+[12:15] EURJPY-OTC 5m: PUT RSI:29 Score:45 📉
+[12:15] NZDUSD-OTC 5m: CALL RSI:64 Score:41 
+[12:15] AUDCAD-OTC 5m: PUT RSI:12 Score:53 📉
+[12:15] --- Analizando 15 min ---
+[12:15] EURGBP-OTC 15m: PUT RSI:23 Score:56 📉
+[12:15] EURUSD-OTC 15m: PUT RSI:51 Score:41 
+[12:15] EURJPY-OTC 15m: PUT RSI:33 Score:50 
+[12:15] NZDUSD-OTC 15m: PUT RSI:63 Score:43 
+[12:15] AUDCAD-OTC 15m: CALL RSI:27 Score:73 
+[12:15] >>> OPERADO: AUDCAD-OTC CALL 15m (Score:73) 
+[12:15] Ciclo completado. Ops:1
+[12:15] Dormir 10min...
+[12:16] Conectando...
+[12:16] Balance: $44.18
+[12:16] EURUSD: CALL RSI:35 Score:60
+[12:16] >>> OPERADO: EURUSD CALL
+[12:16] GBPUSD: CALL RSI:31 Score:60
+[12:16] >>> OPERADO: GBPUSD CALL
+[12:16] Ciclo hecho. Ops:2
+[12:25] Conectando...
+[12:25] Balance: $44.18
+[12:25] --- Analizando 5 min ---
+[12:25] EURGBP-OTC 5m: PUT RSI:27 Score:70 📉
+[12:25] EURUSD-OTC 5m: CALL RSI:44 Score:23 📉
+[12:25] EURJPY-OTC 5m: PUT RSI:16 Score:60 
+[12:25] NZDUSD-OTC 5m: CALL RSI:71 Score:61 
+[12:25] AUDCAD-OTC 5m: PUT RSI:10 Score:60 
+[12:25] --- Analizando 15 min ---
+[12:25] EURGBP-OTC 15m: PUT RSI:19 Score:63 
+[12:25] EURUSD-OTC 15m: PUT RSI:48 Score:53 
+[12:25] EURJPY-OTC 15m: PUT RSI:31 Score:50 
+[12:25] NZDUSD-OTC 15m: PUT RSI:69 Score:56 
+[12:25] AUDCAD-OTC 15m: CALL RSI:24 Score:65 📉
+[12:25] >>> OPERADO: EURGBP-OTC PUT 5m (Score:70) PULLBACK
+[12:25] Ciclo completado. Ops:1
+[12:25] Dormir 10min...
+[12:25] ==================================================
+[12:25] BOT V11 - OPTIMIZADO (Score >= 80)
+[12:25] Pares: EURGBP, EURUSD, EURJPY, NZDUSD, AUDCAD
+[12:25] ==================================================
+[12:25] Conectando...
+[12:25] Balance: $43.18
+[12:25] --- Analizando 5 min ---
+[12:25] EURGBP-OTC 5m: PUT RSI:27 Score:70 📉
+[12:25] EURUSD-OTC 5m: CALL RSI:44 Score:41 📉
+[12:25] EURJPY-OTC 5m: PUT RSI:19 Score:53 📉
+[12:25] NZDUSD-OTC 5m: CALL RSI:72 Score:79 
+[12:25] AUDCAD-OTC 5m: PUT RSI:10 Score:60 
+[12:25] --- Analizando 15 min ---
+[12:25] EURGBP-OTC 15m: PUT RSI:19 Score:63 
+[12:25] EURUSD-OTC 15m: PUT RSI:49 Score:53 
+[12:25] EURJPY-OTC 15m: PUT RSI:31 Score:50 
+[12:25] NZDUSD-OTC 15m: PUT RSI:69 Score:56 
+[12:25] AUDCAD-OTC 15m: CALL RSI:24 Score:65 📉
+[12:25] >>> OPERADO: NZDUSD-OTC CALL 5m (Score:79) 
+[12:25] >>> OPERADO: EURGBP-OTC PUT 5m (Score:70) PULLBACK
+[12:25] Ciclo completado. Ops:2
+[12:25] Dormir 10min...
+[12:26] Conectando...
+[12:26] Balance: $43.03
+[12:26] EURUSD: CALL RSI:36 Score:50
+[12:26] GBPUSD: CALL RSI:33 Score:60
+[12:26] >>> OPERADO: GBPUSD CALL
+[12:26] USDJPY: PUT RSI:62 Score:50
+[12:26] AUDUSD: CALL RSI:42 Score:50
+[12:26] EURGBP: CALL RSI:34 Score:60
+[12:26] >>> OPERADO: EURGBP CALL
+[12:26] Ciclo hecho. Ops:2
+[12:33] ==================================================
+[12:33] BOT V12 - CON SOPORTES Y RESISTENCIAS
+[12:33] ==================================================
+[12:33] Conectando...
+[12:33] Balance: $43.03
+[12:33] EURGBP-OTC 5m: PUT RSI:24 Score:55 S/R:S
+[12:33] EURGBP-OTC 15m: PUT RSI:18 Score:55 S/R:S
+[12:33] EURUSD-OTC 5m: CALL RSI:40 Score:35 S/R:S
+[12:33] EURUSD-OTC 15m: PUT RSI:45 Score:60 S/R:S
+[12:33] EURJPY-OTC 5m: PUT RSI:24 Score:70 S/R:S
+[12:33] EURJPY-OTC 15m: PUT RSI:32 Score:50 S/R:S
+[12:33] NZDUSD-OTC 5m: CALL RSI:75 Score:75 S/R:R
+[12:33] NZDUSD-OTC 15m: PUT RSI:73 Score:55 S/R:S
+[12:33] AUDCAD-OTC 5m: PUT RSI:15 Score:65 S/R:R
+[12:33] AUDCAD-OTC 15m: CALL RSI:25 Score:70 S/R:R
+[12:33] >>> OPERADO: NZDUSD-OTC CALL (Score:75)
+[12:33] >>> OPERADO: EURJPY-OTC PUT (Score:70)
+[12:33] Ciclo done. Ops:2
+[12:36] Conectando...
+[12:36] Balance: $41.03
+[12:36] EURUSD: CALL RSI:28 Score:60
+[12:36] >>> OPERADO: EURUSD CALL
+[12:36] GBPUSD: CALL RSI:26 Score:60
+[12:36] >>> OPERADO: GBPUSD CALL
+[12:36] Ciclo hecho. Ops:2
+[13:21] ==================================================
+[13:21] BOT V13 - S/R con 2+ toques + Vela Nueva
+[13:21] ==================================================
+[13:21] Estado vela: ⏳ Esperar 187s
+[13:21] ⏳ No es momento de entrar. Esperar...
+[13:22] Estado vela: ⏳ Esperar 127s
+[13:22] ⏳ No es momento de entrar. Esperar...
+[13:23] Estado vela: ⏳ Esperar 67s
+[13:23] ⏳ No es momento de entrar. Esperar...
+[13:24] Estado vela: ⏳ Esperar 7s
+[13:24] ⏳ No es momento de entrar. Esperar...
+[13:35] ==================================================
+[13:35] BOT V13 - S/R con 2+ toques + Vela Nueva
+[13:35] ==================================================
+[13:35] Estado vela: ⏳ Esperar 256s
+[13:35] ⏳ No es momento de entrar. Esperar...
+[13:36] Estado vela: ⏳ Esperar 196s
+[13:36] ⏳ No es momento de entrar. Esperar...
+[13:37] Estado vela: ⏳ Esperar 136s
+[13:37] ⏳ No es momento de entrar. Esperar...
+[13:38] Estado vela: ⏳ Esperar 76s
+[13:38] ⏳ No es momento de entrar. Esperar...
+[13:39] ==================================================
+[13:39] BOT V13 - S/R con 2+ toques + Vela Nueva
+[13:39] ==================================================
+[13:39] Estado vela: ⏳ Esperar 40s
+[13:39] ⏳ No es momento de entrar. Esperar...
+[13:40] Estado vela: ✅ Inicio vela (20s)
+[13:40] Conectando...
+[13:40] Balance: $48.39
+[13:40] EURGBP-OTC 5m: PUT RSI:52 Score:65 R(5toques)
+[13:40] EURGBP-OTC 15m: PUT RSI:34 Score:75 R(8toques)
+[13:40] EURUSD-OTC 5m: CALL RSI:52 Score:60 S(6toques)
+[13:40] EURUSD-OTC 15m: PUT RSI:52 Score:45 S(10toques)
+[13:40] EURJPY-OTC 5m: PUT RSI:65 Score:50 R(6toques)
+[13:40] EURJPY-OTC 15m: PUT RSI:49 Score:50 R(7toques)
+[13:40] NZDUSD-OTC 5m: CALL RSI:49 Score:55 S(4toques)
+[13:40] NZDUSD-OTC 15m: PUT RSI:83 Score:60 S(4toques)
+[13:40] AUDCAD-OTC 5m: PUT RSI:29 Score:75 R(6toques)
+[13:40] AUDCAD-OTC 15m: CALL RSI:4 Score:80 S(6toques)
+[13:40] >>> OPERADO: AUDCAD-OTC CALL (Score:80)
+[13:40] >>> OPERADO: EURGBP-OTC PUT (Score:75)
+[13:40] Ciclo done. Ops:2
+[13:50] Estado vela: ⏳ Esperar 267s
+[13:50] ⏳ No es momento de entrar. Esperar...
+[13:51] Estado vela: ⏳ Esperar 207s
+[13:51] ⏳ No es momento de entrar. Esperar...
+[13:52] Estado vela: ⏳ Esperar 147s
+[13:52] ⏳ No es momento de entrar. Esperar...
+[13:53] Estado vela: ⏳ Esperar 87s
+[13:53] ⏳ No es momento de entrar. Esperar...
+[13:54] Estado vela: ⏳ Esperar 27s
+[13:54] ⏳ No es momento de entrar. Esperar...
+[13:55] Estado vela: ⏳ Esperar 267s
+[13:55] ⏳ No es momento de entrar. Esperar...
+[13:56] Estado vela: ⏳ Esperar 207s
+[13:56] ⏳ No es momento de entrar. Esperar...
+[13:57] Estado vela: ⏳ Esperar 147s
+[13:57] ⏳ No es momento de entrar. Esperar...
+[13:58] Estado vela: ⏳ Esperar 87s
+[13:58] ⏳ No es momento de entrar. Esperar...
+[13:59] Estado vela: ⏳ Esperar 27s
+[13:59] ⏳ No es momento de entrar. Esperar...
+[14:00] Estado vela: ⏳ Esperar 267s
+[14:00] ⏳ No es momento de entrar. Esperar...
+[14:01] Estado vela: ⏳ Esperar 207s
+[14:01] ⏳ No es momento de entrar. Esperar...
+[14:02] Estado vela: ⏳ Esperar 147s
+[14:02] ⏳ No es momento de entrar. Esperar...
+[14:03] Estado vela: ⏳ Esperar 87s
+[14:03] ⏳ No es momento de entrar. Esperar...
+[14:04] Estado vela: ⏳ Esperar 27s
+[14:04] ⏳ No es momento de entrar. Esperar...
+[14:08] ==================================================
+[14:08] BOT V14 - LÓGICA CORREGIDA
+[14:08] Reglas: RSI 30-70, Vela = Tendencia
+[14:08] ==================================================
+[14:08] Estado vela: ⏳ Esperar 94s
+[14:08] ⏳ No es momento de entrar. Esperar...
+[14:09] Estado vela: ⏳ Esperar 34s
+[14:09] ⏳ No es momento de entrar. Esperar...
+[14:10] Estado vela: ✅ Inicio vela (26s)
+[14:10] Conectando...
+[14:10] Balance: $46.39
+[14:10] EURGBP-OTC 5m: PUT RSI:45 Score:0 Vela:?
+[14:10] EURGBP-OTC 15m: PUT RSI:38 Score:0 Vela:?
+[14:10] EURUSD-OTC 5m: CALL RSI:67 Score:56 Vela:call
+[14:10] EURUSD-OTC 15m: PUT RSI:70 Score:0 Vela:?
+[14:10] EURJPY-OTC 5m: PUT RSI:53 Score:70 Vela:put
+[14:10] EURJPY-OTC 15m: PUT RSI:40 Score:76 Vela:put
+[14:10] NZDUSD-OTC 5m: CALL RSI:49 Score:0 Vela:?
+[14:10] NZDUSD-OTC 15m: PUT RSI:73 Score:0 Vela:?
+[14:10] AUDCAD-OTC 5m: PUT RSI:29 Score:0 Vela:?
+[14:10] AUDCAD-OTC 15m: CALL RSI:2 Score:0 Vela:?
+[14:10] >>> OPERADO: EURJPY-OTC PUT (Score:76 RSI:40)
+[14:10] Ciclo done. Ops:1
+[14:20] Estado vela: ⏳ Esperar 264s
+[14:20] ⏳ No es momento de entrar. Esperar...
+[14:21] Estado vela: ⏳ Esperar 204s
+[14:21] ⏳ No es momento de entrar. Esperar...
+[14:22] Estado vela: ⏳ Esperar 144s
+[14:22] ⏳ No es momento de entrar. Esperar...
+[14:23] Estado vela: ⏳ Esperar 84s
+[14:23] ⏳ No es momento de entrar. Esperar...
+[14:24] Estado vela: ⏳ Esperar 24s
+[14:24] ⏳ No es momento de entrar. Esperar...
+[14:25] Estado vela: ⏳ Esperar 264s
+[14:25] ⏳ No es momento de entrar. Esperar...
+[14:26] Estado vela: ⏳ Esperar 204s
+[14:26] ⏳ No es momento de entrar. Esperar...
+[14:27] Estado vela: ⏳ Esperar 144s
+[14:27] ⏳ No es momento de entrar. Esperar...
+[14:28] Estado vela: ⏳ Esperar 84s
+[14:28] ⏳ No es momento de entrar. Esperar...
+[14:29] Estado vela: ⏳ Esperar 24s
+[14:29] ⏳ No es momento de entrar. Esperar...
+[14:30] Estado vela: ⏳ Esperar 264s
+[14:30] ⏳ No es momento de entrar. Esperar...
+[14:31] Estado vela: ⏳ Esperar 204s
+[14:31] ⏳ No es momento de entrar. Esperar...
+[14:32] Estado vela: ⏳ Esperar 144s
+[14:32] ⏳ No es momento de entrar. Esperar...
+[14:33] Estado vela: ⏳ Esperar 84s
+[14:33] ⏳ No es momento de entrar. Esperar...
+[14:34] Estado vela: ⏳ Esperar 24s
+[14:34] ⏳ No es momento de entrar. Esperar...
+[14:35] Estado vela: ⏳ Esperar 264s
+[14:35] ⏳ No es momento de entrar. Esperar...
+[14:36] Estado vela: ⏳ Esperar 204s
+[14:36] ⏳ No es momento de entrar. Esperar...
+[14:37] Estado vela: ⏳ Esperar 144s
+[14:37] ⏳ No es momento de entrar. Esperar...
+[14:38] Estado vela: ⏳ Esperar 84s
+[14:38] ⏳ No es momento de entrar. Esperar...
+[14:39] Estado vela: ⏳ Esperar 24s
+[14:39] ⏳ No es momento de entrar. Esperar...
+[14:40] Estado vela: ⏳ Esperar 264s
+[14:40] ⏳ No es momento de entrar. Esperar...
+[14:41] Estado vela: ⏳ Esperar 204s
+[14:41] ⏳ No es momento de entrar. Esperar...
+[14:42] Estado vela: ⏳ Esperar 144s
+[14:42] ⏳ No es momento de entrar. Esperar...
+[14:43] Estado vela: ⏳ Esperar 84s
+[14:43] ⏳ No es momento de entrar. Esperar...
+[14:44] Estado vela: ⏳ Esperar 24s
+[14:44] ⏳ No es momento de entrar. Esperar...
+[14:45] Estado vela: ⏳ Esperar 264s
+[14:45] ⏳ No es momento de entrar. Esperar...
+[14:46] Estado vela: ⏳ Esperar 204s
+[14:46] ⏳ No es momento de entrar. Esperar...
+[14:47] Estado vela: ⏳ Esperar 144s
+[14:47] ⏳ No es momento de entrar. Esperar...
+[14:48] Estado vela: ⏳ Esperar 84s
+[14:48] ⏳ No es momento de entrar. Esperar...
+[14:49] Estado vela: ⏳ Esperar 24s
+[14:49] ⏳ No es momento de entrar. Esperar...
+[14:50] Estado vela: ⏳ Esperar 264s
+[14:50] ⏳ No es momento de entrar. Esperar...
+[14:51] Estado vela: ⏳ Esperar 204s
+[14:51] ⏳ No es momento de entrar. Esperar...
+[14:52] Estado vela: ⏳ Esperar 144s
+[14:52] ⏳ No es momento de entrar. Esperar...
+[14:53] Estado vela: ⏳ Esperar 84s
+[14:53] ⏳ No es momento de entrar. Esperar...
+[14:54] Estado vela: ⏳ Esperar 24s
+[14:54] ⏳ No es momento de entrar. Esperar...
+[14:55] Estado vela: ⏳ Esperar 264s
+[14:55] ⏳ No es momento de entrar. Esperar...
+[14:56] Estado vela: ⏳ Esperar 204s
+[14:56] ⏳ No es momento de entrar. Esperar...
+[14:57] Estado vela: ⏳ Esperar 144s
+[14:57] ⏳ No es momento de entrar. Esperar...
+[14:58] Estado vela: ⏳ Esperar 84s
+[14:58] ⏳ No es momento de entrar. Esperar...
+[14:59] Estado vela: ⏳ Esperar 24s
+[14:59] ⏳ No es momento de entrar. Esperar...
+[15:00] Estado vela: ⏳ Esperar 264s
+[15:00] ⏳ No es momento de entrar. Esperar...
+[15:01] Estado vela: ⏳ Esperar 204s
+[15:01] ⏳ No es momento de entrar. Esperar...
+[15:02] Estado vela: ⏳ Esperar 144s
+[15:02] ⏳ No es momento de entrar. Esperar...
+[15:03] Estado vela: ⏳ Esperar 84s
+[15:03] ⏳ No es momento de entrar. Esperar...
+[15:04] Estado vela: ⏳ Esperar 24s
+[15:04] ⏳ No es momento de entrar. Esperar...
+[15:05] Estado vela: ⏳ Esperar 264s
+[15:05] ⏳ No es momento de entrar. Esperar...
+[15:06] Estado vela: ⏳ Esperar 204s
+[15:06] ⏳ No es momento de entrar. Esperar...
+[15:07] Estado vela: ⏳ Esperar 144s
+[15:07] ⏳ No es momento de entrar. Esperar...
+[15:08] Estado vela: ⏳ Esperar 84s
+[15:08] ⏳ No es momento de entrar. Esperar...
+[15:09] Estado vela: ⏳ Esperar 24s
+[15:09] ⏳ No es momento de entrar. Esperar...
+[15:10] Estado vela: ⏳ Esperar 264s
+[15:10] ⏳ No es momento de entrar. Esperar...
+[15:11] Estado vela: ⏳ Esperar 204s
+[15:11] ⏳ No es momento de entrar. Esperar...
+[15:12] Estado vela: ⏳ Esperar 144s
+[15:12] ⏳ No es momento de entrar. Esperar...
+[15:13] Estado vela: ⏳ Esperar 84s
+[15:13] ⏳ No es momento de entrar. Esperar...
+[15:14] Estado vela: ⏳ Esperar 24s
+[15:14] ⏳ No es momento de entrar. Esperar...
+[15:15] Estado vela: ⏳ Esperar 264s
+[15:15] ⏳ No es momento de entrar. Esperar...
+[15:16] Estado vela: ⏳ Esperar 204s
+[15:16] ⏳ No es momento de entrar. Esperar...
+[15:17] Estado vela: ⏳ Esperar 144s
+[15:17] ⏳ No es momento de entrar. Esperar...
+[15:18] Estado vela: ⏳ Esperar 84s
+[15:18] ⏳ No es momento de entrar. Esperar...
+[15:19] Estado vela: ⏳ Esperar 24s
+[15:19] ⏳ No es momento de entrar. Esperar...
+[15:20] Estado vela: ⏳ Esperar 264s
+[15:20] ⏳ No es momento de entrar. Esperar...
+[15:21] Estado vela: ⏳ Esperar 204s
+[15:21] ⏳ No es momento de entrar. Esperar...
+[15:22] Estado vela: ⏳ Esperar 144s
+[15:22] ⏳ No es momento de entrar. Esperar...
+[15:23] Estado vela: ⏳ Esperar 84s
+[15:23] ⏳ No es momento de entrar. Esperar...
+[15:24] Estado vela: ⏳ Esperar 24s
+[15:24] ⏳ No es momento de entrar. Esperar...
+[15:25] Estado vela: ⏳ Esperar 264s
+[15:25] ⏳ No es momento de entrar. Esperar...
+[15:26] Estado vela: ⏳ Esperar 204s
+[15:26] ⏳ No es momento de entrar. Esperar...
+[15:27] Estado vela: ⏳ Esperar 144s
+[15:27] ⏳ No es momento de entrar. Esperar...
+[15:28] Estado vela: ⏳ Esperar 84s
+[15:28] ⏳ No es momento de entrar. Esperar...
+[15:29] Estado vela: ⏳ Esperar 24s
+[15:29] ⏳ No es momento de entrar. Esperar...
+[15:30] Estado vela: ⏳ Esperar 264s
+[15:30] ⏳ No es momento de entrar. Esperar...
+[15:31] Estado vela: ⏳ Esperar 204s
+[15:31] ⏳ No es momento de entrar. Esperar...
+[15:32] Estado vela: ⏳ Esperar 144s
+[15:32] ⏳ No es momento de entrar. Esperar...
+[15:33] Estado vela: ⏳ Esperar 84s
+[15:33] ⏳ No es momento de entrar. Esperar...
+[15:34] Estado vela: ⏳ Esperar 24s
+[15:34] ⏳ No es momento de entrar. Esperar...
+[15:35] Estado vela: ⏳ Esperar 264s
+[15:35] ⏳ No es momento de entrar. Esperar...
+[15:36] Estado vela: ⏳ Esperar 204s
+[15:36] ⏳ No es momento de entrar. Esperar...
+[15:37] Estado vela: ⏳ Esperar 144s
+[15:37] ⏳ No es momento de entrar. Esperar...
+[15:38] Estado vela: ⏳ Esperar 84s
+[15:38] ⏳ No es momento de entrar. Esperar...
+[15:39] Estado vela: ⏳ Esperar 24s
+[15:39] ⏳ No es momento de entrar. Esperar...
+[15:40] Estado vela: ⏳ Esperar 264s
+[15:40] ⏳ No es momento de entrar. Esperar...
+[15:41] Estado vela: ⏳ Esperar 204s
+[15:41] ⏳ No es momento de entrar. Esperar...
+[15:42] Estado vela: ⏳ Esperar 144s
+[15:42] ⏳ No es momento de entrar. Esperar...
+[15:43] Estado vela: ⏳ Esperar 84s
+[15:43] ⏳ No es momento de entrar. Esperar...
+[15:44] Estado vela: ⏳ Esperar 24s
+[15:44] ⏳ No es momento de entrar. Esperar...
+[15:45] Estado vela: ⏳ Esperar 264s
+[15:45] ⏳ No es momento de entrar. Esperar...
+[15:46] Estado vela: ⏳ Esperar 204s
+[15:46] ⏳ No es momento de entrar. Esperar...
+[15:47] Estado vela: ⏳ Esperar 144s
+[15:47] ⏳ No es momento de entrar. Esperar...
+[15:48] Estado vela: ⏳ Esperar 84s
+[15:48] ⏳ No es momento de entrar. Esperar...
+[15:49] Estado vela: ⏳ Esperar 24s
+[15:49] ⏳ No es momento de entrar. Esperar...
+[15:50] Estado vela: ⏳ Esperar 264s
+[15:50] ⏳ No es momento de entrar. Esperar...
+[15:51] Estado vela: ⏳ Esperar 204s
+[15:51] ⏳ No es momento de entrar. Esperar...
+[15:52] Estado vela: ⏳ Esperar 144s
+[15:52] ⏳ No es momento de entrar. Esperar...
+[15:53] Estado vela: ⏳ Esperar 84s
+[15:53] ⏳ No es momento de entrar. Esperar...
+[15:54] Estado vela: ⏳ Esperar 24s
+[15:54] ⏳ No es momento de entrar. Esperar...
+[15:55] Estado vela: ⏳ Esperar 264s
+[15:55] ⏳ No es momento de entrar. Esperar...
+[15:56] Estado vela: ⏳ Esperar 204s
+[15:56] ⏳ No es momento de entrar. Esperar...
+[15:57] Estado vela: ⏳ Esperar 144s
+[15:57] ⏳ No es momento de entrar. Esperar...
+[15:58] Estado vela: ⏳ Esperar 84s
+[15:58] ⏳ No es momento de entrar. Esperar...
+[15:59] Estado vela: ⏳ Esperar 24s
+[15:59] ⏳ No es momento de entrar. Esperar...
+[16:00] Estado vela: ⏳ Esperar 264s
+[16:00] ⏳ No es momento de entrar. Esperar...
+[16:01] Estado vela: ⏳ Esperar 204s
+[16:01] ⏳ No es momento de entrar. Esperar...
+[16:02] Estado vela: ⏳ Esperar 144s
+[16:02] ⏳ No es momento de entrar. Esperar...
+[16:03] Estado vela: ⏳ Esperar 84s
+[16:03] ⏳ No es momento de entrar. Esperar...
+[16:04] Estado vela: ⏳ Esperar 24s
+[16:04] ⏳ No es momento de entrar. Esperar...
+[16:05] Estado vela: ⏳ Esperar 264s
+[16:05] ⏳ No es momento de entrar. Esperar...
+[16:06] Estado vela: ⏳ Esperar 204s
+[16:06] ⏳ No es momento de entrar. Esperar...
+[16:07] Estado vela: ⏳ Esperar 144s
+[16:07] ⏳ No es momento de entrar. Esperar...
+[16:08] Estado vela: ⏳ Esperar 84s
+[16:08] ⏳ No es momento de entrar. Esperar...
+[16:09] Estado vela: ⏳ Esperar 24s
+[16:09] ⏳ No es momento de entrar. Esperar...
+[16:10] Estado vela: ⏳ Esperar 264s
+[16:10] ⏳ No es momento de entrar. Esperar...
+[16:11] Estado vela: ⏳ Esperar 204s
+[16:11] ⏳ No es momento de entrar. Esperar...
+[16:12] Estado vela: ⏳ Esperar 144s
+[16:12] ⏳ No es momento de entrar. Esperar...
+[16:13] Estado vela: ⏳ Esperar 84s
+[16:13] ⏳ No es momento de entrar. Esperar...
+[16:14] Estado vela: ⏳ Esperar 24s
+[16:14] ⏳ No es momento de entrar. Esperar...
+[16:15] Estado vela: ⏳ Esperar 264s
+[16:15] ⏳ No es momento de entrar. Esperar...
+[16:16] Estado vela: ⏳ Esperar 204s
+[16:16] ⏳ No es momento de entrar. Esperar...
+[16:17] Estado vela: ⏳ Esperar 144s
+[16:17] ⏳ No es momento de entrar. Esperar...
+[16:18] ==================================================
+[16:18] BOT V14 - LÓGICA CORREGIDA
+[16:18] Reglas: RSI 30-70, Vela = Tendencia
+[16:18] ==================================================
+[16:18] Estado vela: ⏳ Esperar 102s
+[16:18] ⏳ No es momento de entrar. Esperar...
+[16:19] Estado vela: ⏳ Esperar 42s
+[16:19] ⏳ No es momento de entrar. Esperar...
+[16:20] Estado vela: ✅ Inicio vela (18s)
+[16:20] Conectando...
+[16:20] Balance: $47.23
+[16:20] EURGBP-OTC 5m: CALL RSI:30 Score:0 Vela:?
+[16:20] EURGBP-OTC 15m: PUT RSI:44 Score:73 Vela:put
+[16:20] EURUSD-OTC 5m: CALL RSI:45 Score:86 Vela:call
+[16:20] EURUSD-OTC 15m: CALL RSI:69 Score:56 Vela:call
+[16:20] EURJPY-OTC 5m: PUT RSI:28 Score:0 Vela:?
+[16:20] EURJPY-OTC 15m: PUT RSI:32 Score:55 Vela:put
+[16:20] NZDUSD-OTC 5m: PUT RSI:60 Score:0 Vela:?
+[16:20] NZDUSD-OTC 15m: CALL RSI:51 Score:91 Vela:call
+[16:20] AUDCAD-OTC 5m: PUT RSI:27 Score:0 Vela:?
+[16:20] AUDCAD-OTC 15m: PUT RSI:34 Score:0 Vela:?
+[16:20] >>> OPERADO: NZDUSD-OTC CALL (Score:91 RSI:51)
+[16:20] >>> OPERADO: EURUSD-OTC CALL (Score:86 RSI:45)
+[16:20] Ciclo done. Ops:2
+[16:30] Estado vela: ⏳ Esperar 269s
+[16:30] ⏳ No es momento de entrar. Esperar...
+[16:31] Estado vela: ⏳ Esperar 209s
+[16:31] ⏳ No es momento de entrar. Esperar...
+[16:32] Estado vela: ⏳ Esperar 149s
+[16:32] ⏳ No es momento de entrar. Esperar...
+[16:33] Estado vela: ⏳ Esperar 89s
+[16:33] ⏳ No es momento de entrar. Esperar...
+[16:34] Estado vela: ⏳ Esperar 29s
+[16:34] ⏳ No es momento de entrar. Esperar...
+[16:35] Estado vela: ⏳ Esperar 269s
+[16:35] ⏳ No es momento de entrar. Esperar...
+[16:36] Estado vela: ⏳ Esperar 209s
+[16:36] ⏳ No es momento de entrar. Esperar...
+[16:37] Estado vela: ⏳ Esperar 149s
+[16:37] ⏳ No es momento de entrar. Esperar...
+[16:38] Estado vela: ⏳ Esperar 89s
+[16:38] ⏳ No es momento de entrar. Esperar...
+[16:39] Estado vela: ⏳ Esperar 29s
+[16:39] ⏳ No es momento de entrar. Esperar...
+[16:40] Estado vela: ⏳ Esperar 269s
+[16:40] ⏳ No es momento de entrar. Esperar...
+[16:41] Estado vela: ⏳ Esperar 209s
+[16:41] ⏳ No es momento de entrar. Esperar...
+[16:42] Estado vela: ⏳ Esperar 149s
+[16:42] ⏳ No es momento de entrar. Esperar...
+[16:43] Estado vela: ⏳ Esperar 89s
+[16:43] ⏳ No es momento de entrar. Esperar...
+[16:44] Estado vela: ⏳ Esperar 29s
+[16:44] ⏳ No es momento de entrar. Esperar...
+[16:45] Estado vela: ⏳ Esperar 269s
+[16:45] ⏳ No es momento de entrar. Esperar...
+[16:46] Estado vela: ⏳ Esperar 209s
+[16:46] ⏳ No es momento de entrar. Esperar...
+[16:47] Estado vela: ⏳ Esperar 149s
+[16:47] ⏳ No es momento de entrar. Esperar...
+[16:48] Estado vela: ⏳ Esperar 89s
+[16:48] ⏳ No es momento de entrar. Esperar...
+[16:49] Estado vela: ⏳ Esperar 29s
+[16:49] ⏳ No es momento de entrar. Esperar...
+[16:50] Estado vela: ⏳ Esperar 269s
+[16:50] ⏳ No es momento de entrar. Esperar...
+[16:51] Estado vela: ⏳ Esperar 209s
+[16:51] ⏳ No es momento de entrar. Esperar...
+[16:52] Estado vela: ⏳ Esperar 149s
+[16:52] ⏳ No es momento de entrar. Esperar...
+[16:53] Estado vela: ⏳ Esperar 89s
+[16:53] ⏳ No es momento de entrar. Esperar...
+[16:54] Estado vela: ⏳ Esperar 29s
+[16:54] ⏳ No es momento de entrar. Esperar...
+[16:55] Estado vela: ⏳ Esperar 269s
+[16:55] ⏳ No es momento de entrar. Esperar...
+[16:56] Estado vela: ⏳ Esperar 209s
+[16:56] ⏳ No es momento de entrar. Esperar...
+[16:57] Estado vela: ⏳ Esperar 149s
+[16:57] ⏳ No es momento de entrar. Esperar...
+[16:58] Estado vela: ⏳ Esperar 89s
+[16:58] ⏳ No es momento de entrar. Esperar...
+[16:59] Estado vela: ⏳ Esperar 29s
+[16:59] ⏳ No es momento de entrar. Esperar...
+[17:00] Estado vela: ⏳ Esperar 269s
+[17:00] ⏳ No es momento de entrar. Esperar...
+[17:01] Estado vela: ⏳ Esperar 209s
+[17:01] ⏳ No es momento de entrar. Esperar...
+[17:02] Estado vela: ⏳ Esperar 149s
+[17:02] ⏳ No es momento de entrar. Esperar...
+[17:03] Estado vela: ⏳ Esperar 89s
+[17:03] ⏳ No es momento de entrar. Esperar...
+[17:04] Estado vela: ⏳ Esperar 29s
+[17:04] ⏳ No es momento de entrar. Esperar...
+[17:05] Estado vela: ⏳ Esperar 269s
+[17:05] ⏳ No es momento de entrar. Esperar...
+[17:06] Estado vela: ⏳ Esperar 209s
+[17:06] ⏳ No es momento de entrar. Esperar...
+[17:07] Estado vela: ⏳ Esperar 149s
+[17:07] ⏳ No es momento de entrar. Esperar...
+[17:08] Estado vela: ⏳ Esperar 89s
+[17:08] ⏳ No es momento de entrar. Esperar...
+[17:09] Estado vela: ⏳ Esperar 29s
+[17:09] ⏳ No es momento de entrar. Esperar...
+[17:10] Estado vela: ⏳ Esperar 269s
+[17:10] ⏳ No es momento de entrar. Esperar...
+[17:11] Estado vela: ⏳ Esperar 209s
+[17:11] ⏳ No es momento de entrar. Esperar...
+[17:12] Estado vela: ⏳ Esperar 149s
+[17:12] ⏳ No es momento de entrar. Esperar...
+[17:13] Estado vela: ⏳ Esperar 89s
+[17:13] ⏳ No es momento de entrar. Esperar...
+[17:14] Estado vela: ⏳ Esperar 29s
+[17:14] ⏳ No es momento de entrar. Esperar...
+[17:15] Estado vela: ⏳ Esperar 269s
+[17:15] ⏳ No es momento de entrar. Esperar...
+[17:16] Estado vela: ⏳ Esperar 209s
+[17:16] ⏳ No es momento de entrar. Esperar...
+[17:17] Estado vela: ⏳ Esperar 149s
+[17:17] ⏳ No es momento de entrar. Esperar...
+[17:18] Estado vela: ⏳ Esperar 89s
+[17:18] ⏳ No es momento de entrar. Esperar...
+[17:19] Estado vela: ⏳ Esperar 29s
+[17:19] ⏳ No es momento de entrar. Esperar...
+[17:20] Estado vela: ⏳ Esperar 269s
+[17:20] ⏳ No es momento de entrar. Esperar...
+[17:21] Estado vela: ⏳ Esperar 209s
+[17:21] ⏳ No es momento de entrar. Esperar...
+[17:22] Estado vela: ⏳ Esperar 149s
+[17:22] ⏳ No es momento de entrar. Esperar...
+[17:23] Estado vela: ⏳ Esperar 89s
+[17:23] ⏳ No es momento de entrar. Esperar...
+[17:24] Estado vela: ⏳ Esperar 29s
+[17:24] ⏳ No es momento de entrar. Esperar...
+[17:25] Estado vela: ⏳ Esperar 269s
+[17:25] ⏳ No es momento de entrar. Esperar...
+[17:26] Estado vela: ⏳ Esperar 209s
+[17:26] ⏳ No es momento de entrar. Esperar...
+[17:27] Estado vela: ⏳ Esperar 149s
+[17:27] ⏳ No es momento de entrar. Esperar...
+[17:28] Estado vela: ⏳ Esperar 89s
+[17:28] ⏳ No es momento de entrar. Esperar...
+[17:29] Estado vela: ⏳ Esperar 29s
+[17:29] ⏳ No es momento de entrar. Esperar...
+[17:30] Estado vela: ⏳ Esperar 269s
+[17:30] ⏳ No es momento de entrar. Esperar...
+[17:31] Estado vela: ⏳ Esperar 209s
+[17:31] ⏳ No es momento de entrar. Esperar...
+[17:32] Estado vela: ⏳ Esperar 149s
+[17:32] ⏳ No es momento de entrar. Esperar...
+[17:33] Estado vela: ⏳ Esperar 89s
+[17:33] ⏳ No es momento de entrar. Esperar...
+[17:34] ============================================================
+[17:34] BOT V15 - PCR COMPLETO (Pullback, Continuity, Reversal)
+[17:34] ============================================================
+[17:34] Estado: ⏳ Esperar 59s
+[17:34] ⏳ No es momento. Esperar...
+[17:35] Estado: ✅ Vela nueva (1s)
+[17:35] Conectando...
+[17:35] Balance: $47.07
+[17:35] Sin señales PCR
+[17:35] Ciclo done. Ops:0
+[17:45] Estado: ✅ Vela nueva (11s)
+[17:45] Conectando...
+[17:45] Balance: $46.07
+[17:45] Sin señales PCR
+[17:45] Ciclo done. Ops:0
+[17:55] Estado: ✅ Vela nueva (14s)
+[17:55] Conectando...
+[17:55] Balance: $46.07
+[17:55] Sin señales PCR
+[17:55] Ciclo done. Ops:0
+[18:05] Estado: ✅ Vela nueva (18s)
+[18:05] Conectando...
+[18:05] Balance: $46.07
+[18:05] Sin señales PCR
+[18:05] Ciclo done. Ops:0
+[18:15] Estado: ✅ Vela nueva (21s)
+[18:15] Conectando...
+[18:15] Balance: $46.07
+[18:15] Sin señales PCR
+[18:15] Ciclo done. Ops:0
+[18:25] Estado: ✅ Vela nueva (25s)
+[18:25] Conectando...
+[18:25] Balance: $46.07
+[18:25] Sin señales PCR
+[18:25] Ciclo done. Ops:0
+[18:35] Estado: ✅ Vela nueva (29s)
+[18:35] Conectando...
+[18:35] Balance: $46.07
+[18:35] Sin señales PCR
+[18:35] Ciclo done. Ops:0
+[18:45] Estado: ⏳ Esperar 268s
+[18:45] ⏳ No es momento. Esperar...
+[18:46] Estado: ⏳ Esperar 208s
+[18:46] ⏳ No es momento. Esperar...
+[18:47] Estado: ⏳ Esperar 148s
+[18:47] ⏳ No es momento. Esperar...
+[18:48] Estado: ⏳ Esperar 88s
+[18:48] ⏳ No es momento. Esperar...
+[18:49] Estado: ⏳ Esperar 28s
+[18:49] ⏳ No es momento. Esperar...
+[18:50] Estado: ⏳ Esperar 268s
+[18:50] ⏳ No es momento. Esperar...
+[18:51] Estado: ⏳ Esperar 208s
+[18:51] ⏳ No es momento. Esperar...
+[18:52] Estado: ⏳ Esperar 148s
+[18:52] ⏳ No es momento. Esperar...
+[18:53] Estado: ⏳ Esperar 88s
+[18:53] ⏳ No es momento. Esperar...
+[18:54] Estado: ⏳ Esperar 28s
+[18:54] ⏳ No es momento. Esperar...
+[18:55] Estado: ⏳ Esperar 268s
+[18:55] ⏳ No es momento. Esperar...
+[18:56] Estado: ⏳ Esperar 208s
+[18:56] ⏳ No es momento. Esperar...
+[18:57] Estado: ⏳ Esperar 148s
+[18:57] ⏳ No es momento. Esperar...
+[18:58] Estado: ⏳ Esperar 88s
+[18:58] ⏳ No es momento. Esperar...
+[18:59] Estado: ⏳ Esperar 28s
+[18:59] ⏳ No es momento. Esperar...
+[19:00] Estado: ⏳ Esperar 268s
+[19:00] ⏳ No es momento. Esperar...
+[19:01] Estado: ⏳ Esperar 208s
+[19:01] ⏳ No es momento. Esperar...
+[19:02] Estado: ⏳ Esperar 148s
+[19:02] ⏳ No es momento. Esperar...
+[19:03] Estado: ⏳ Esperar 88s
+[19:03] ⏳ No es momento. Esperar...
+[19:04] Estado: ⏳ Esperar 28s
+[19:04] ⏳ No es momento. Esperar...
+[19:05] Estado: ⏳ Esperar 268s
+[19:05] ⏳ No es momento. Esperar...
+[19:06] Estado: ⏳ Esperar 208s
+[19:06] ⏳ No es momento. Esperar...
+[19:07] Estado: ⏳ Esperar 148s
+[19:07] ⏳ No es momento. Esperar...
+[19:08] Estado: ⏳ Esperar 88s
+[19:08] ⏳ No es momento. Esperar...
+[19:09] Estado: ⏳ Esperar 28s
+[19:09] ⏳ No es momento. Esperar...
+[19:10] Estado: ⏳ Esperar 268s
+[19:10] ⏳ No es momento. Esperar...
+[19:11] Estado: ⏳ Esperar 208s
+[19:11] ⏳ No es momento. Esperar...
+[19:12] Estado: ⏳ Esperar 148s
+[19:12] ⏳ No es momento. Esperar...
+[19:13] Estado: ⏳ Esperar 88s
+[19:13] ⏳ No es momento. Esperar...
+[19:14] Estado: ⏳ Esperar 28s
+[19:14] ⏳ No es momento. Esperar...
+[19:15] Estado: ⏳ Esperar 268s
+[19:15] ⏳ No es momento. Esperar...
+[19:16] Estado: ⏳ Esperar 208s
+[19:16] ⏳ No es momento. Esperar...
+[19:17] Estado: ⏳ Esperar 148s
+[19:17] ⏳ No es momento. Esperar...
+[19:18] Estado: ⏳ Esperar 88s
+[19:18] ⏳ No es momento. Esperar...
+[19:19] Estado: ⏳ Esperar 28s
+[19:19] ⏳ No es momento. Esperar...
+[19:20] Estado: ⏳ Esperar 268s
+[19:20] ⏳ No es momento. Esperar...
+[19:21] Estado: ⏳ Esperar 208s
+[19:21] ⏳ No es momento. Esperar...
+[19:22] Estado: ⏳ Esperar 148s
+[19:22] ⏳ No es momento. Esperar...
+[23:16] ============================================================
+[23:16] BOT V16 - PCR INTEGRADO (BinaryTeach + Latin Pro)
+[23:16] ============================================================
+[23:16] Estado: ⏳ Esperar 195s
+[23:16] ⏳ Esperar...
+[23:17] Estado: ⏳ Esperar 135s
+[23:17] ⏳ Esperar...
+[23:18] Estado: ⏳ Esperar 75s
+[23:18] ⏳ Esperar...
+[23:19] Estado: ⏳ Esperar 15s
+[23:19] ⏳ Esperar...
+[23:20] Estado: ⏳ Esperar 255s
+[23:20] ⏳ Esperar...
+[23:21] Estado: ⏳ Esperar 195s
+[23:21] ⏳ Esperar...
+[23:22] Estado: ⏳ Esperar 135s
+[23:22] ⏳ Esperar...
+[23:23] Estado: ⏳ Esperar 75s
+[23:23] ⏳ Esperar...
+[23:24] Estado: ⏳ Esperar 15s
+[23:24] ⏳ Esperar...
+[23:25] Estado: ⏳ Esperar 255s
+[23:25] ⏳ Esperar...
+[23:26] Estado: ⏳ Esperar 195s
+[23:26] ⏳ Esperar...
+[23:27] Estado: ⏳ Esperar 135s
+[23:27] ⏳ Esperar...
+[23:28] Estado: ⏳ Esperar 75s
+[23:28] ⏳ Esperar...
+[23:29] Estado: ⏳ Esperar 15s
+[23:29] ⏳ Esperar...
+[23:30] Estado: ⏳ Esperar 255s
+[23:30] ⏳ Esperar...
+[23:31] Estado: ⏳ Esperar 195s
+[23:31] ⏳ Esperar...
+[23:32] Estado: ⏳ Esperar 135s
+[23:32] ⏳ Esperar...
+[23:33] Estado: ⏳ Esperar 75s
+[23:33] ⏳ Esperar...
+[23:34] Estado: ⏳ Esperar 15s
+[23:34] ⏳ Esperar...
+[23:35] Estado: ⏳ Esperar 255s
+[23:35] ⏳ Esperar...
+[23:36] Estado: ⏳ Esperar 195s
+[23:36] ⏳ Esperar...
+[23:37] Estado: ⏳ Esperar 135s
+[23:37] ⏳ Esperar...
+[23:38] Estado: ⏳ Esperar 75s
+[23:38] ⏳ Esperar...
+[23:39] Estado: ⏳ Esperar 15s
+[23:39] ⏳ Esperar...
+[23:40] Estado: ⏳ Esperar 255s
+[23:40] ⏳ Esperar...
+[23:41] Estado: ⏳ Esperar 195s
+[23:41] ⏳ Esperar...
+[23:42] Estado: ⏳ Esperar 135s
+[23:42] ⏳ Esperar...
+[23:43] Estado: ⏳ Esperar 75s
+[23:43] ⏳ Esperar...
+[23:44] Estado: ⏳ Esperar 15s
+[23:44] ⏳ Esperar...
+[23:45] Estado: ⏳ Esperar 255s
+[23:45] ⏳ Esperar...
+[23:46] Estado: ⏳ Esperar 195s
+[23:46] ⏳ Esperar...
+[23:47] Estado: ⏳ Esperar 135s
+[23:47] ⏳ Esperar...
+[23:48] Estado: ⏳ Esperar 75s
+[23:48] ⏳ Esperar...
+[23:49] Estado: ⏳ Esperar 15s
+[23:49] ⏳ Esperar...
+[23:50] Estado: ⏳ Esperar 255s
+[23:50] ⏳ Esperar...
+[23:51] Estado: ⏳ Esperar 195s
+[23:51] ⏳ Esperar...
+[23:52] Estado: ⏳ Esperar 135s
+[23:52] ⏳ Esperar...
+[23:53] Estado: ⏳ Esperar 75s
+[23:53] ⏳ Esperar...
+[23:54] Estado: ⏳ Esperar 15s
+[23:54] ⏳ Esperar...
+[23:55] Estado: ⏳ Esperar 255s
+[23:55] ⏳ Esperar...
+[23:56] Estado: ⏳ Esperar 195s
+[23:56] ⏳ Esperar...
+[23:57] Estado: ⏳ Esperar 135s
+[23:57] ⏳ Esperar...
+[23:58] Estado: ⏳ Esperar 75s
+[23:58] ⏳ Esperar...
+[23:59] Estado: ⏳ Esperar 15s
+[23:59] ⏳ Esperar...
+[00:00] Estado: ⏳ Esperar 255s
+[00:00] ⏳ Esperar...
+[00:01] Estado: ⏳ Esperar 195s
+[00:01] ⏳ Esperar...
+[00:02] Estado: ⏳ Esperar 135s
+[00:02] ⏳ Esperar...
+[00:03] Estado: ⏳ Esperar 75s
+[00:03] ⏳ Esperar...
+[00:04] Estado: ⏳ Esperar 15s
+[00:04] ⏳ Esperar...
+[00:05] Estado: ⏳ Esperar 255s
+[00:05] ⏳ Esperar...
+[00:06] Estado: ⏳ Esperar 195s
+[00:06] ⏳ Esperar...
+[00:07] Estado: ⏳ Esperar 135s
+[00:07] ⏳ Esperar...
+[00:08] Estado: ⏳ Esperar 75s
+[00:08] ⏳ Esperar...
+[00:09] Estado: ⏳ Esperar 15s
+[00:09] ⏳ Esperar...
+[00:10] Estado: ⏳ Esperar 255s
+[00:10] ⏳ Esperar...
+[00:11] Estado: ⏳ Esperar 195s
+[00:11] ⏳ Esperar...
+[00:12] Estado: ⏳ Esperar 135s
+[00:12] ⏳ Esperar...
+[00:13] Estado: ⏳ Esperar 75s
+[00:13] ⏳ Esperar...
+[00:14] Estado: ⏳ Esperar 15s
+[00:14] ⏳ Esperar...
+[00:15] Estado: ⏳ Esperar 255s
+[00:15] ⏳ Esperar...
+[00:16] Estado: ⏳ Esperar 195s
+[00:16] ⏳ Esperar...
+[00:17] Estado: ⏳ Esperar 135s
+[00:17] ⏳ Esperar...
+[00:18] Estado: ⏳ Esperar 75s
+[00:18] ⏳ Esperar...
+[00:19] Estado: ⏳ Esperar 15s
+[00:19] ⏳ Esperar...
+[00:20] Estado: ⏳ Esperar 255s
+[00:20] ⏳ Esperar...
+[00:21] Estado: ⏳ Esperar 195s
+[00:21] ⏳ Esperar...
+[00:22] Estado: ⏳ Esperar 135s
+[00:22] ⏳ Esperar...
+[00:23] Estado: ⏳ Esperar 75s
+[00:23] ⏳ Esperar...
+[00:24] Estado: ⏳ Esperar 15s
+[00:24] ⏳ Esperar...
+[00:25] Estado: ⏳ Esperar 255s
+[00:25] ⏳ Esperar...
+[00:26] Estado: ⏳ Esperar 195s
+[00:26] ⏳ Esperar...
+[00:27] Estado: ⏳ Esperar 135s
+[00:27] ⏳ Esperar...
+[00:28] Estado: ⏳ Esperar 75s
+[00:28] ⏳ Esperar...
+[00:29] Estado: ⏳ Esperar 15s
+[00:29] ⏳ Esperar...
+[00:30] Estado: ⏳ Esperar 255s
+[00:30] ⏳ Esperar...
+[00:31] Estado: ⏳ Esperar 195s
+[00:31] ⏳ Esperar...
+[00:32] Estado: ⏳ Esperar 135s
+[00:32] ⏳ Esperar...
+[00:33] Estado: ⏳ Esperar 75s
+[00:33] ⏳ Esperar...
+[00:34] Estado: ⏳ Esperar 15s
+[00:34] ⏳ Esperar...
+[00:35] Estado: ⏳ Esperar 255s
+[00:35] ⏳ Esperar...
+[00:36] Estado: ⏳ Esperar 195s
+[00:36] ⏳ Esperar...
+[00:37] Estado: ⏳ Esperar 135s
+[00:37] ⏳ Esperar...
+[00:38] Estado: ⏳ Esperar 75s
+[00:38] ⏳ Esperar...
+[00:39] Estado: ⏳ Esperar 15s
+[00:39] ⏳ Esperar...
+[00:40] Estado: ⏳ Esperar 255s
+[00:40] ⏳ Esperar...
+[00:41] Estado: ⏳ Esperar 195s
+[00:41] ⏳ Esperar...
+[00:42] Estado: ⏳ Esperar 135s
+[00:42] ⏳ Esperar...
+[00:43] Estado: ⏳ Esperar 75s
+[00:43] ⏳ Esperar...
+[00:44] Estado: ⏳ Esperar 15s
+[00:44] ⏳ Esperar...
+[00:45] Estado: ⏳ Esperar 255s
+[00:45] ⏳ Esperar...
+[00:46] Estado: ⏳ Esperar 195s
+[00:46] ⏳ Esperar...
+[00:47] Estado: ⏳ Esperar 135s
+[00:47] ⏳ Esperar...
+[00:48] Estado: ⏳ Esperar 75s
+[00:48] ⏳ Esperar...
+[00:49] Estado: ⏳ Esperar 15s
+[00:49] ⏳ Esperar...
+[00:50] Estado: ⏳ Esperar 255s
+[00:50] ⏳ Esperar...
+[00:51] Estado: ⏳ Esperar 195s
+[00:51] ⏳ Esperar...
+[00:52] Estado: ⏳ Esperar 135s
+[00:52] ⏳ Esperar...
+[00:53] Estado: ⏳ Esperar 75s
+[00:53] ⏳ Esperar...
+[00:54] Estado: ⏳ Esperar 15s
+[00:54] ⏳ Esperar...
+[00:55] Estado: ⏳ Esperar 255s
+[00:55] ⏳ Esperar...
+[00:56] Estado: ⏳ Esperar 195s
+[00:56] ⏳ Esperar...
+[00:57] Estado: ⏳ Esperar 135s
+[00:57] ⏳ Esperar...
+[00:58] Estado: ⏳ Esperar 75s
+[00:58] ⏳ Esperar...
+[00:59] Estado: ⏳ Esperar 15s
+[00:59] ⏳ Esperar...
+[01:00] Estado: ⏳ Esperar 255s
+[01:00] ⏳ Esperar...
+[01:01] Estado: ⏳ Esperar 195s
+[01:01] ⏳ Esperar...
+[01:02] Estado: ⏳ Esperar 135s
+[01:02] ⏳ Esperar...
+[01:03] Estado: ⏳ Esperar 75s
+[01:03] ⏳ Esperar...
+[01:04] Estado: ⏳ Esperar 15s
+[01:04] ⏳ Esperar...
+[01:05] Estado: ⏳ Esperar 255s
+[01:05] ⏳ Esperar...
+[01:06] Estado: ⏳ Esperar 195s
+[01:06] ⏳ Esperar...
+[01:07] Estado: ⏳ Esperar 135s
+[01:07] ⏳ Esperar...
+[01:08] Estado: ⏳ Esperar 75s
+[01:08] ⏳ Esperar...
+[01:09] Estado: ⏳ Esperar 15s
+[01:09] ⏳ Esperar...
