@@ -11,6 +11,7 @@ import time
 import os
 import signal
 import json
+import math
 from datetime import datetime
 
 sys.path.insert(0, '/home/mmkd/.local/share/Trash/files/binary-bot-master./binary-bot-master')
@@ -23,16 +24,23 @@ STATE_FILE = "/home/mmkd/.openclaw/workspace/otto_trading/estado.json"
 
 CORRIENDO = True
 MODO_SOLO_ANALISIS = False  # Solo análisis, sin ejecutar operaciones
-ANALISIS_CADA = 900  # 15 minutos - menos análisis = menos operaciones
+ANALISIS_CADA = 300  # 5 minutos
 EJECUTOR_CADA = 15   # 15 segundos
 
 IQ = None
+IQ_EMAIL = os.getenv("IQ_EMAIL")
+IQ_PASSWORD = os.getenv("IQ_PASSWORD")
 
 # Límites
 LIMITE_POR_VELA = 1
-LIMITE_POR_PAR_CICLO = 1  # Solo 1 por par
-LIMITE_TOTAL_CICLO = 1  # Solo 1 operación por ciclo
+LIMITE_POR_PAR_CICLO = 2
+LIMITE_TOTAL_CICLO = 2
 MAX_REUSO_SENAL = 1  # SOLO 1 INTENTO por señal
+
+# Configuración operativa (ajustable por entorno)
+MIN_PAYOUT = float(os.getenv("MIN_PAYOUT", "0.80"))
+ENABLE_5M = os.getenv("ENABLE_5M", "1").lower() in ("1", "true", "yes")
+STRICT_COUNTERTREND = os.getenv("STRICT_COUNTERTREND", "1").lower() in ("1", "true", "yes")
 
 def cargar_estado():
     try:
@@ -74,8 +82,11 @@ def signal_handler(sig, frame):
 def get_iq():
     global IQ
     if IQ is None:
+        if not IQ_EMAIL or not IQ_PASSWORD:
+            log("❌ Faltan credenciales: define IQ_EMAIL e IQ_PASSWORD")
+            return None
         try:
-            IQ = IQ_Option("rancieljarol@gmail.com", "440Harold!!!!")
+            IQ = IQ_Option(IQ_EMAIL, IQ_PASSWORD)
             IQ.connect()
         except Exception as e:
             log(f"❌ Error conexión: {str(e)[:50]}")
@@ -118,15 +129,15 @@ def detectar_choch(estructura, precio, swings_high, swings_low):
 
 import pandas as pd
 
-def detectar_zonas_pcr(closes, highs, lows, precio_actual, tolerancia=0.001, tf_sec=300):
+def detectar_zonas_pcr(closes, highs, lows, precio_actual, tolerancia=0.001, tf_sec=900):
     """Zonas S/R recientes con peso por recencia"""
     import time
     zonas = []
     todos_niveles = []
     n = len(closes)
     
-    # Cada vela de 5m = 300s, de 15m = 900s
-    seg_por_vela = tf_sec if tf_sec else 300
+    # Solo 15m
+    seg_por_vela = tf_sec if tf_sec else 900
     
     for i in range(n):
         peso = (i + 1) / n  # más reciente = más peso
@@ -201,6 +212,10 @@ def detectar_patron_pcr(opens, closes, highs, lows, zona_tipo):
     if rango == 0:
         return "NINGUNO", "NINGUNO", 0
 
+    # Eliminar solo dojis extremos, NO hammers
+    if cuerpo < (h - l) * 0.15:
+        return "NINGUNO", "NINGUNO", 0
+
     # === SOPORTE -> buscar CALL ===
     if zona_tipo == "SOPORTE":
         # HAMMER / PINBAR CALL
@@ -226,13 +241,17 @@ def detectar_patron_pcr(opens, closes, highs, lows, zona_tipo):
                 and v > o and v > (o3 + v3) / 2):
                 return "MORNING_STAR", "REVERSAL", 18
 
-        # PULLBACK
-        if (v > o and l <= min(lows[-5:-1]) * 1.001 and
-            v > opens[-2] and cuerpo > cuerpo2 * 0.7):
+        # PULLBACK CALL - retroceso real a zona
+        if (v > o and 
+            l <= min(lows[-5:-1]) * 1.001 and
+            v > opens[-2] and 
+            cuerpo > cuerpo2 * 0.7):
             return "PULLBACK_CALL", "PULLBACK", 15
 
-        # CONTINUIDAD
-        if (v > o and cuerpo > (h - l) * 0.6 and mecha_b < cuerpo * 0.3):
+        # CONTINUIDAD CALL - vela fuerte con intención
+        if (v > o and 
+            cuerpo > (h - l) * 0.6 and 
+            mecha_b < cuerpo * 0.3):
             return "CONTINUIDAD_CALL", "CONTINUIDAD", 10
 
     # === RESISTENCIA -> buscar PUT ===
@@ -261,12 +280,16 @@ def detectar_patron_pcr(opens, closes, highs, lows, zona_tipo):
                 return "EVENING_STAR", "REVERSAL", 18
 
         # PULLBACK PUT
-        if (v < o and h >= max(highs[-5:-1]) * 0.999 and
-            v < opens[-2] and cuerpo > cuerpo2 * 0.7):
+        if (v < o and 
+            h >= max(highs[-5:-1]) * 0.999 and
+            v < opens[-2] and 
+            cuerpo > cuerpo2 * 0.7):
             return "PULLBACK_PUT", "PULLBACK", 15
 
         # CONTINUIDAD PUT
-        if (v < o and cuerpo > (h - l) * 0.6 and mecha_a < cuerpo * 0.3):
+        if (v < o and 
+            cuerpo > (h - l) * 0.6 and 
+            mecha_a < cuerpo * 0.3):
             return "CONTINUIDAD_PUT", "CONTINUIDAD", 10
 
     return "NINGUNO", "NINGUNO", 0
@@ -486,16 +509,23 @@ def analizar_par(par, tf, tf_sec):
         # Dirección por zona
         direccion = "CALL" if zona_tipo == "SOPORTE" else "PUT"
         
-        # Bloquear entradas contra tendencia fuerte
-        if estructura == "ALCISTA" and direccion == "PUT":
-            if score < 85:
-                log(f"⛔ {par} {tf_sec}: Contra-tendencia ALCISTA con PUT bloqueado")
-                return None
+        # Validar zona no rota
+        # zona de soporte rota / zona de resistencia rota
+        if direccion == "CALL" and precio < zona_precio:
+            log(f"⛔ {par} {tf_sec}: Zona de soporte rota")
+            return None
+        if direccion == "PUT" and precio > zona_precio:
+            log(f"⛔ {par} {tf_sec}: Zona de resistencia rota")
+            return None
+
+        # Bloquear entradas contra tendencia (sin excepciones)
+        if STRICT_COUNTERTREND and estructura == "ALCISTA" and direccion == "PUT":
+            log(f"⛔ {par} {tf_sec}: Contra-tendencia bloqueada")
+            return None
         
-        if estructura == "BAJISTA" and direccion == "CALL":
-            if score < 85:
-                log(f"⛔ {par} {tf_sec}: Contra-tendencia BAJISTA con CALL bloqueado")
-                return None
+        if STRICT_COUNTERTREND and estructura == "BAJISTA" and direccion == "CALL":
+            log(f"⛔ {par} {tf_sec}: Contra-tendencia bloqueada")
+            return None
         
         # Patrón EN ZONA (obligatorio)
         patron, tipo_pcr, score_patron = detectar_patron_pcr(opens, closes, highs, lows, zona_tipo)
@@ -533,6 +563,14 @@ def analizar_par(par, tf, tf_sec):
             score += 10
         elif zona_toques == 2:
             score += 5
+
+        # Bonus si zona coincide con EMA (zona dinámica)
+        if abs(zona_precio - ema20) / ema20 < 0.002:
+            score += 5
+            log(f"✅ {par} {tf_sec}: Zona confluye con EMA20 - bonus")
+        elif abs(zona_precio - ema50) / ema50 < 0.002:
+            score += 5
+            log(f"✅ {par} {tf_sec}: Zona confluye con EMA50 - bonus")
         
         # Tendencia
         dif_ema = abs(ema20 - ema50) / ema50
@@ -572,7 +610,7 @@ def analizar_par(par, tf, tf_sec):
             score -= 5
         
         # Decisión
-        score_min = 85
+        score_min = 60 if tf_sec == "15m" else 65
         
         if score >= score_min:
             decision = "OPERAR"
@@ -662,7 +700,7 @@ def generar_grafico_analisis(par, tf, tf_sec, df, zonas, mejor_resultado):
 
 def ejecutar_ciclo_analisis():
     log("="*50)
-    log("🔄 ANÁLISIS (cada 5 min)")
+    log("🔄 ANÁLISIS (cada 15 min)")
     log("="*50)
     
     estado = cargar_estado()
@@ -693,9 +731,12 @@ def ejecutar_ciclo_analisis():
     ]
     resultados = []
     
+    timeframes = [("15m", 900)]
+    if ENABLE_5M:
+        timeframes.insert(0, ("5m", 300))
     for PAR in PARES:
-        for tf, tf_sec in [(300, "5m"), (900, "15m")]:
-            resultado = analizar_par(PAR, tf, tf_sec)
+        for tf_label, tf_secs in timeframes:
+            resultado = analizar_par(PAR, tf_secs, tf_label)
             if resultado:
                 resultados.append(resultado)
     
@@ -704,9 +745,7 @@ def ejecutar_ciclo_analisis():
     log("")
     log("📊 RESULTADOS:")
     for r in resultados[:6]:
-        imp = "🔥" if r.get('modo_impulso') else ""
-        pb = "↓" if not r.get('pullback_ok') else ""
-        log(f"  {r['par']:12} {r['tf']:3} | Est:{r['estructura']:8} | Z:{r['zona']:6} | S:{r['score']:2} {imp} {pb}")
+        log(f"  {r['par']:12} {r['tf']:3} | Est:{r['estructura']:8} | Z:{r['zona']:6} | S:{r['score']:2}")
     
     mejor = None
     for r in resultados:
@@ -736,11 +775,12 @@ def ejecutar_ciclo_analisis():
         try:
             iq = get_iq()
             if iq:
-                candles_graf = iq.get_candles(mejor['par'], 300 if mejor['tf']=='5m' else 900, 60, int(time.time()))
+                tf_graf = 300 if mejor['tf'] == "5m" else 900
+                candles_graf = iq.get_candles(mejor['par'], tf_graf, 60, int(time.time()))
                 if candles_graf:
                     df = pd.DataFrame(candles_graf)
                     zonas_graf = detectar_zonas_pcr(df['close'].values, df['max'].values, df['min'].values, df['close'].iloc[-1])
-                    generar_grafico_analisis(mejor['par'], 300 if mejor['tf']=='5m' else 900, mejor['tf'], df, zonas_graf, mejor)
+                    generar_grafico_analisis(mejor['par'], tf_graf, mejor['tf'], df, zonas_graf, mejor)
         except Exception as e:
             pass
 
@@ -812,7 +852,7 @@ def ejecutar_operacion(senal, tiempo_desde_apertura):
     direccion = senal['direccion']
     
     try:
-        tf_sec_exec = {"5m": 300, "15m": 900}.get(senal.get("tf", "5m"), 300)
+        tf_sec_exec = {"15m": 900}.get(senal.get("tf", "15m"), 900)
         candles = iq.get_candles(par, tf_sec_exec, 3, int(time.time()))
         if candles and len(candles) >= 1:
             precio_actual = candles[-1]['close']
@@ -842,19 +882,19 @@ def ejecutar_operacion(senal, tiempo_desde_apertura):
             dir_iq = 'call' if direccion == 'CALL' else 'put'
             
             # === EJECUTAR OPERACIÓN ===
-            timeframes = {"1m": 1, "5m": 5, "15m": 15, "1m": 1}
-            # Dynamic expiration - use remaining time in current candle
-            tiempo_vela = senal.get("tiempo_restante", 60)
-            # Round to nearest minute, max 5 min
-            expiracion = min(5, max(1, int(tiempo_vela / 60)))
-            log(f"⏱ Expir: {expiracion}min (vela={tiempo_vela}s)")
+            # Expiración fija según timeframe
+            tf_expiracion = {"5m": 5, "15m": 15}
+            expiracion = tf_expiracion.get(senal.get('tf', '15m'), 15)
+            log(f"⏱️ Expiración: {expiracion} minutos (TF: {senal.get('tf')})")
             resultado_buy = iq.buy(1, par, dir_iq, expiracion)
             if not resultado_buy[0]:
                 log(f"❌ Compra fallida para {par} exp={expiracion}m")
                 return False
             id = resultado_buy[1]
-            log(f"⏱️ Expiración: {expiracion} minutos (TF: {senal.get('tf')})")
             log(f"✅ [MODO PRO] OPERACIÓN: {par} {dir_iq.upper()} $1 (id:{id})")
+            if os.path.exists(SENAL_FILE):
+                os.remove(SENAL_FILE)
+                log("🧹 Señal eliminada tras ejecución")
             
             # === ACTUALIZAR ESTADO ===
             estado = cargar_estado()
@@ -923,8 +963,13 @@ def ejecutar_ciclo_rapido():
         log(f"⏳ [MODO PRO] Sin señal")
         return
     
-    if time.time() - senal.get('timestamp', 0) > 300:
+    max_vida_senal = 900 if senal.get("tf") == "15m" else 300
+    if time.time() - senal.get('timestamp', 0) > max_vida_senal:
         log(f"⏳ [MODO PRO] Señal vencida")
+        return
+
+    if senal.get('decision') != 'OPERAR':
+        log("⛔ Señal no operativa, descartada")
         return
     
     # Verificar puede operar
@@ -938,7 +983,7 @@ def ejecutar_ciclo_rapido():
         return
     
     try:
-        tf_sec_rap = {"5m": 300, "15m": 900}.get(senal.get("tf", "5m"), 300)
+        tf_sec_rap = {"5m": 300, "15m": 900}.get(senal.get("tf", "15m"), 900)
         candles = iq.get_candles(senal["par"], tf_sec_rap, 2, int(time.time()))
         if candles and len(candles) >= 1:
             vela_open_time = candles[-1]['from']
@@ -946,11 +991,11 @@ def ejecutar_ciclo_rapido():
         else:
             return
     except:
-        tiempo_desde_apertura = int(time.time()) % 300
+        tiempo_desde_apertura = int(time.time()) % tf_sec_rap
     
     # NUEVA LÓGICA: verificar tiempo restante según timeframe
-    tf_map = {"1m": 60, "5m": 300, "15m": 900}
-    tf_sec = tf_map.get(senal.get('tf', '5m'), 300)
+    tf_map = {"5m": 300, "15m": 900}
+    tf_sec = tf_map.get(senal.get('tf', '15m'), 900)
     tiempo_restante = tf_sec - (time.time() - senal.get('vela_open_time', 0))
     
     if tiempo_restante < 60:
